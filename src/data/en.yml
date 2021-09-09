@@ -1,22 +1,22 @@
 Skip-To-Content: Skip to content
 Language-Settings: Language Settings
 Sidebar-Title: Site Navigation
-Home: Home
-Editor: Editor
-Download: Download
-Donate: Donate
-Start: Get Started
-Reference: Reference
-Libraries: Libraries
-Learn: Learn
-Teach: Teach
-Examples: Examples
-Books: Books
-Community: Community
-Contribute: Contribute
-Forum: Forum
-Showcase: Showcase
-footerxh1: Credits
+Home: ホーム
+Editor: エディタ
+Download: ダウンロード
+Donate: 寄付
+Start: 入門
+Reference: リファレンス
+Libraries: ライブラリ
+Learn: 学習
+Teach: 教える
+Examples: サンプル
+Books: 書籍
+Community: コミュニティ
+Contribute: 貢献
+Forum: フォーラム
+Showcase: ショーケース
+footerxh1: クレジット
 footer1: 'p5.js is currently led by '
 footer2: ' and was created by '
 footer3: '. p5.js is developed by a community of collaborators, with support from the '
@@ -30,9 +30,13 @@ tagline5: Processing community times JavaScript community
 tagline6: the power of Processing times the reach of JavaScript
 tagline7: The p5.js community stands in solidarity with Black Lives Matter.
 home:
-  start-creating: Start creating with the p5 Editor!
-  p1xh1: Hello!
+  start-creating: p5エディタで作成を始めましょう！
+  p1xh1: こんにちは！
   p1x1: >-
+    p5.jsはクリエイティブコーディングのためのJavaScriptライブラリです。
+    アーティスト、デザイナー、教育者、初学者などの人たちに向けた、とっつきやすくて包含的なライブラリです！
+    p5.jsは無料でオープンソースです。
+    私たちは、全ての人たちがソフトウェアやツールの学習にアクセスしやすいことを、望んでいるからです。
     p5.js is a JavaScript library for creative coding, with a focus on making
     coding accessible and inclusive for artists, designers, educators,
     beginners, and anyone else! p5.js is free and open-source because we believe
@@ -42,7 +46,7 @@ home:
     functionality. However, you’re not limited to your drawing canvas. You can
     think of your whole browser page as your sketch, including HTML5 objects for
     text, input, video, webcam, and sound.
-  p2xh2: Community
+  p2xh2: コミュニティ
   p2x1: >-
     We are a community of, and in solidarity with, people from every gender
     identity and expression, sexual orientation, race, ethnicity, language,
@@ -57,7 +61,7 @@ home:
   p2x5: 'Learn more about '
   p2x6: our community
   p2x7: .
-  p3xh2: Get Started
+  p3xh2: はじめよう！
   p3xp1: 'Make your first sketch in the '
   p3xp2: '. Learn more about sketching with p5.js on the '
   p3xp3: Get Started page
