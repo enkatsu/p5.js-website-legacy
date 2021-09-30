@@ -31,50 +31,46 @@ tagline6: the power of Processing times the reach of JavaScript
 tagline7: The p5.js community stands in solidarity with Black Lives Matter.
 home:
   start-creating: p5エディタで作成を始めましょう！
-  p1xh1: こんにちは！
+  p1xh1: こんにちは!
   p1x1: >-
     p5.jsはクリエイティブコーディングのためのJavaScriptライブラリです。
     アーティスト、デザイナー、教育者、初学者などの人たちに向けた、とっつきやすくて包含的なライブラリです！
     p5.jsは無料でオープンソースです。
     私たちは、全ての人たちがソフトウェアやツールの学習にアクセスしやすいことを、望んでいるからです。
-    p5.js is a JavaScript library for creative coding, with a focus on making
-    coding accessible and inclusive for artists, designers, educators,
-    beginners, and anyone else! p5.js is free and open-source because we believe
-    software, and the tools to learn it, should be accessible to everyone.
+
   p1x2: >-
-    Using the metaphor of a sketch, p5.js has a full set of drawing
-    functionality. However, you’re not limited to your drawing canvas. You can
-    think of your whole browser page as your sketch, including HTML5 objects for
-    text, input, video, webcam, and sound.
+    p5.jsにはスケッチのメタファーを使用した、完全な描画設定を行う機能が備わっています。
+    これは、描画キャンバスに限定されるものではありません。テキスト、入力、ビデオ、ウェブカメラ、およびサウンドのためのHTML5オブジェクトを含む、ブラウザのページ全体をスケッチとして考えましょう。
+    
   p2xh2: コミュニティ
   p2x1: >-
-    We are a community of, and in solidarity with, people from every gender
-    identity and expression, sexual orientation, race, ethnicity, language,
-    neuro-type, size, disability, class, religion, culture, subculture,
-    political opinion, age, skill level, occupation, and background. We
-    acknowledge that not everyone has the time, financial means, or capacity to
-    actively participate, but we recognize and encourage involvement of all
-    kinds. We facilitate and foster access and empowerment. We are all learners.
-  p2x2: 'p5.js is an interpretation of '
-  p2x3: ' for today’s web. We hold events and operate with support from the '
-  p2x4: .
-  p2x5: 'Learn more about '
-  p2x6: our community
-  p2x7: .
+    私たちは、あらゆる性別への意識や表現、指向、人種、民族、言語、神経、体格、障害、階級、宗教、文化、サブカルチャー、政治的意見、年齢、
+    スキルレベル、職業、背景を持つ人々のコミュニティであり、それらの人々と繋がっています。私たちは、全ての人に共通している参加時間や経済的手段、能力があるわけではない。だからこそ、あらゆる人々の参加を推奨しています。
+    私たちは、繋がりと潜在能力の引き出しを促進し、育成を進めている。私たちはみんな、学んでいる途中なのです。
+
+  p2x2: >-
+    p5.jsは
+  p2x3: >-
+    の解釈です。このウェブの運営のために、
+  p2x4: >-
+    の支援を受けてイベントを開催し、運営しています。
+  p2x5: '私たちのコミュニティについては'
+  p2x6: こちら
+  p2x7: をご覧ください。
   p3xh2: はじめよう！
-  p3xp1: 'Make your first sketch in the '
-  p3xp2: '. Learn more about sketching with p5.js on the '
-  p3xp3: Get Started page
-  p3xp4: ' and everything you can do in the '
+  p3xp1: ''
+  p3xp2: 'で最初のスケッチを作成します。p5.jsでのスケッチについては'
+  p3xp3: Get Started
+  p3xp4: 'のページで、できることについては'
   p3xp5: Reference
-  p3xp6: .
-  p4xh2: Get Involved
-  p4xp1: 'There are many ways to contribute to p5.js:'
+  p3xp6: で詳しく説明しています。
+  p4xh2: 参加について
+  p4xp1: p5.jsに関与するには：'There are many ways to contribute to p5.js:'
   p4xp2: Involvement Options
-  p4xp3: Share something you've made!
-  p4xp4: Teach a workshop or class.
-  p4xp5: Organize a meet-up.
-  p4xp6: Contribute to the codebase.
+  p4xp3: 作ったものをシェア
+  p4xp4: ワークショップやクラスを開く
+  p4xp5: ミートアップを開催
+  p4xp6: コードベースへの貢献
   sketch_credits: Sketch Credits
   sketch_info: Hunminjeongeum2020 created by Seonghyeon Kim
 copyright:
