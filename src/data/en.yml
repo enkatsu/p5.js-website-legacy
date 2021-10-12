@@ -18,10 +18,10 @@ Forum: フォーラム
 Showcase: ショーケース
 footerxh1: クレジット
 footer1: 'p5.js is currently led by '
-footer2: ' が率いており、'
-footer3: 'が作成しました。p5.jsは、'
-footer4: 'と'
-footer5: 'のサポートのもと、共同研究者のコミュニティによって開発されています。Identity and graphic design by '
+footer2: ' and was created by '
+footer3: '. p5.js is developed by a community of collaborators, with support from the '
+footer4: ' and '
+footer5: 'Identity and graphic design by '
 tagline1: Processing fun times JavaScript quirkiness
 tagline2: Processing simplicity times JavaScript flexibility
 tagline3: Processing intuition times JavaScript power
@@ -110,9 +110,9 @@ get started:
     にアクセスしてください。index.htmlを見ると、p5.jsというファイルにリンクしていることがわかります。
     最小化されたバージョン（圧縮して、ページの読み込みが高速化したもの）を使用したい場合は、リンクをp5.min.jsに変更してください。
   download5: >-
-    また、オンラインでホストされているp5.jsファイルにリンクすることもできます。 すべてのバージョンのp5.jsは、
-    CDN(Content Delivery Network)に保存されています。 これらのバージョンの履歴は
-  download6: 'で見ることができます。この場合、リンクを変更することができます。:'
+    また、オンラインにホスティングされているp5.jsファイルを読み込むこともできます。
+    すべてのバージョンのp5.jsは、p5.js CDN (Content Delivery Network)
+  download6: 'から見つけることができます。この場合は、以下のようにリンク先を変更することができます。'
   download7: 'HTMLページのサンプルは次のようなものです。:'
   environment-title: 環境
   environment1: 'あなたのコンピュータでp5.jsを実行するには、テキストエディタが必要です。お好みの '
