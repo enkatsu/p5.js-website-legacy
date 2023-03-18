@@ -80,19 +80,17 @@ copyright:
   copyright3: 'The Reference for the language is under a '
   copyright4: ' license which makes it possible to reuse this content for non-commercial purposes if it is credited.'
 get started:
-  get-started-title: Get Started
+  get-started-title: はじめよう！
   get-started1: >-
-    This page walks you through setting up a p5.js project and making your first
-    sketch.
-  get-started2: 'The easiest way to start is using the '
+    このページでは、p5.jsプロジェクトのセットアップと最初のスケッチを作る方法を説明します。
+  get-started2: '最も簡単な方法は、'
   get-started3: p5.js editor
-  get-started4: ', you can open the web editor and can scroll down to '
-  get-started5: Your First Sketch
+  get-started4: 'を使うことです。ウェブエディタを開き、'
+  get-started5: はじめてのスケッチ
   get-started6: >-
-    . If you would like to work on the desktop version of p5.js you can
-    scroll down to
-  get-started7: downloading instructions
-  get-started-button: 'Copy'
+    までスクロールダウンしてください。p5.jsのデスクトップ版で作業したい場合は、
+  get-started7: ダウンロードの手順までスクロールしてください。
+  get-started-button: 'コピー'
   settingUp-title: Setting up p5.js with an editor on your own computer
   download-title: Downloading a copy of the p5.js library
   hosted-title: Using a hosted version of the p5.js library
@@ -141,74 +139,64 @@ get started:
   environment15: 'http://localhost:{your-port-num}/empty-example'
   environment16: ' if you are using a local server)'
   environment13: ' in the address bar to view your sketch.'
-  your-first-sketch-title: Your First Sketch
-  your-first-sketch-intro1: 'In the '
+  your-first-sketch-title: はじめてのスケッチ
+  your-first-sketch-intro1: ''
   your-first-sketch-intro2: 'https://editor.p5js.org/'
   your-first-sketch-intro3: p5.js web editor
-  your-first-sketch-intro4: ' you should find the following code:'
-  your-first-sketch1: 'After '
-  your-first-sketch2: ' include this line of code: '
-  your-first-sketch3: 'Now your code should be like this: '
+  your-first-sketch-intro4: 'に、以下のコードがあるはずです:'
+  your-first-sketch1: ''
+  your-first-sketch2: 'の後に、次の行を記述します: '
+  your-first-sketch3: 'これで、あなたのコードは次のようになるはずです: '
   your-first-sketch4: >-
-    The line you just added draws an ellipse, with its center 50 pixels over
-    from the left and 50 pixels down from the top, with a width and height of 80
-    pixels.
-  your-first-sketch5: On the editor press play to display your code in action!
+    先ほど追加した行は、中心が左から50ピクセル、上から50ピクセルで、幅と高さが80ピクセルの楕円を描画します。
+  your-first-sketch5: エディターで再生ボタンを押すと、あなたのコードが表示されます！
   your-first-sketch6: >-
-    If you are using a screen reader, you must turn on the accessible outputs in
-    the p5 online editor, outside the editor you must add the accessibility
-    library in your html. To learn more visit&#32;
+    スクリーンリーダーを使用する場合は、p5オンラインエディターでアクセシブル出力をオンにし、
+    エディター以外ではhtmlにアクセシビリティライブラリーを追加する必要があります。
+    詳しくは、p5をスクリーン・リーダーで使うチュートリアルをご覧ください。&#32;
   your-first-sketch7: 'using p5 with a screen reader tutorial'
   your-first-sketch8: >-
-    If you've typed everything correctly, this will appear in the display
-    window:
+    正しく入力されていれば、表示ウィンドウにこのように表示されます:
   your-first-sketch9: canvas has a circle of width and height 50 at position 80 x and 80 y
   your-first-sketch10: >-
-    If nothing appears, the editor may be having trouble understanding what
-    you’ve typed. If this happens, make sure that you've copied the example code
-    exactly: the numbers should be contained within parentheses and have commas
-    between each of them, the line should end with a semicolon, and ellipse has
-    to be spelled correctly.
+    何も表示されない場合は、エディタがあなたの入力した内容を理解するのに苦労している可能性があります。
+    数字は括弧の中に入れ、その間にカンマを入れ、行末はセミコロン、ellipseは正しいスペルである必要があります。
   your-first-sketch11: >-
-    One of the most difficult things about getting started with programming is
-    that you have to be very specific about the syntax. The browser isn't always
-    smart enough to know what you mean, and can be quite fussy about the
-    placement of punctuation. You'll get used to it with a little practice. In
-    the bottom left of the editor you will find the console section. Here, you
-    can find messages from the editor with details about any errors it
-    encounters.
+    プログラミングを始めるにあたって最も難しいことの1つは、構文について非常に細かく指定しなければならないことです。
+    ブラウザは常にあなたの言いたいことを理解できるほど賢くはありませんし、
+    句読点の配置についてもかなりうるさくなります。少し練習すれば、慣れるでしょう。
+    エディターの左下には、コンソールセクションがあります。
+    ここでは、エディタが遭遇したエラーの詳細を含むメッセージを見ることができます。
   your-first-sketch12: >-
-    Next, we'll skip ahead to a sketch that's a little more exciting. Modify the
-    last example to try this:
+    次に、ちょっと刺激的なスケッチに飛びます。前回の例を修正して、次のように試してみましょう:
   your-first-sketch13: >-
-    This program creates a canvas that is 400 pixels wide and 400 pixels high,
-    and then starts drawing white circles at the position of the mouse. When a
-    mouse button is pressed, the circle color changes to black. Run the code,
-    move the mouse, and click to experience it.
+    このプログラムは、幅400ピクセル、高さ400ピクセルのキャンバスを作成し、マウスの位置に白い円を描き始めます。
+    マウスのボタンが押されると、円の色が黒に変化します。
+    コードを実行し、マウスを動かし、クリックすると体験できます。
   your-first-sketch14: canvas has multiple circles drawn on it following the path of the mouse
   first-sketch-heading1: Code snippet with ellipse
   first-sketch-heading2: Note for screenreader users
   first-sketch-heading3: Code snippet with interaction
-  what-next-title: What Next?
-  learn1: 'Check out the '
+  what-next-title: 次はどうする？
+  learn1: '詳しくは'
   learn2: learn page
-  learn3: ' and '
+  learn3: 'と'
   learn4: examples page
-  learn5: ' for more.'
-  learn6: 'Watch '
+  learn5: 'で確認してください'
+  learn6: ''
   learn7: The Coding Train
-  learn8: ' and '
+  learn8: 'と'
   learn9: Kadenze
-  learn10: ' video tutorials.'
-  reference1: 'View the '
-  reference2: ' reference'
-  reference3: ' for full documentation.'
-  learn11: 'If you wish to use p5 with a screenreader, check out the '
-  learn12: p5 with a screenreader tutorial
-  processing-transition1: 'If you have used Processing in the past, read the '
+  learn10: 'のビデオチュートリアルを見る'
+  reference1: '完全なドキュメントについては、'
+  reference2: 'リファレンス'
+  reference3: 'をご覧ください'
+  learn11: 'p5をスクリーンリーダーで使用したい場合は、'
+  learn12: p5 with a screenreader tutorialを参照してください
+  processing-transition1: '過去にProcessingを使用していた方は、'
   processing-transition2: 'https://github.com/processing/p5.js/wiki/Processing-transition'
-  processing-transition3: Processing transition tutorial
-  processing-transition4: ' to learn how to convert from Processing to p5.js, and the main differences between them.'
+  processing-transition3: Processing移行チュートリアル
+  processing-transition4: 'を読んで、Processingからp5.jsへの変換方法と、両者の主な違いについて学んでください'
   book1: >-
     Parts of this tutorial were adapted from the book, Getting Started with
     p5.js, by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly / Make 2015.
