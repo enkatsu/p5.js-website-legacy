@@ -1400,11 +1400,10 @@ libraries:
     If you have created a library and would like to have it included on this
     page, submit this form!
 community:
-  community-title: Community
-  community-statement-title: p5.js Community Statement
+  community-title: コミュニティ
+  community-statement-title: p5.jsコミュニティ・ステートメント
   community-statement1: >-
-    p5.js is a community interested in exploring the creation of art and design
-    with technology.
+    p5.jsは、テクノロジーによるアートやデザインの創造を探求することに興味を持つコミュニティです。
   community-statement2: >-
     We are a community of, and in solidarity with, people from every gender
     identity and expression, sexual orientation, race, ethnicity, language,
@@ -1678,7 +1677,7 @@ community:
   2022-p5js-access-day-transcriber: Closed Captioning Transcription Support
   2022-p5js-access-day-asl-support: Live ASL Support
 books:
-  books-title: Books
+  books-title: 書籍
   book-1-title: Getting Started with p5.js
   book-1-authors: 'Lauren McCarthy, Casey Reas, and Ben Fry. Illustrations by Taeyoon Choi.'
   book-1-publisher: 'Published October 2015, Maker Media. '
