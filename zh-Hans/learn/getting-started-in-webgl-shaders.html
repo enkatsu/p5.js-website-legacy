@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="p5.js a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.">
+    <title tabindex="1">learn | p5.js</title>
+    <link rel="stylesheet" href="/assets/css/all.css?v=8dd5ca">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/../../assets/img/favicon.ico">
+    <link rel="icon" href="/../../assets/img/favicon.ico">
+
+
+    <script src="/../../assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/../../assets/js/vendor/ace-nc/ace.js"></script>
+    <script src="/../../assets/js/vendor/ace-nc/mode-javascript.js"></script>
+    <script src="/../../assets/js/vendor/prism.js"></script>
+    <script src="/assets/js/init.js?v=97b4f7"></script>
+
+    <script src="/../../assets/js/vendor/pangu.min.js"></script>
+
+  </head>
+  <body>
+
+    <a href="#content" class="sr-only">跳到内容</a>
+    
+    <!-- p5*js language buttons -->
+    <div id="i18n-btn">
+      <h2 id="i18n-settings" class="sr-only">语言设定</h2>
+      <ul id="i18n-buttons" aria-labelledby="i18n-settings">
+        <li><a href='#' lang='en' data-lang='en'>English</a></li>
+        <li><a href='#' lang='es' data-lang='es'>Español</a></li>
+        <li><a href='#' lang='zh-Hans' data-lang='zh-Hans'>简体中文</a></li>
+        <li><a href='#' lang='ko' data-lang='ko'>한국어</a></li>
+        <li><a href='#' lang='hi' data-lang='hi'>हिन्दी</a></li>
+      </ul>
+    </div>    <!-- .container -->
+    <div class="container">
+
+      <!-- logo -->
+      <header id="lockup">
+        <a href="/zh-Hans/">
+          <img src="/../../assets/img/p5js.svg" alt="p5 homepage" id="logo_image" class="logo" />
+          <div id="p5_logo"></div>
+        </a>
+      </header>
+      <!-- close logo -->
+
+      
+
+<style>
+  .methodsList {
+    font-family: monospace;
+  }
+
+  .additionalInformation {
+    width: 100%;
+    background-color: #dedeff;
+    padding: 10px;
+    margin: 30px 0;
+  }
+
+  .toc {
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;
+    margin: 30px 0;
+  }
+
+  .toc h3 {
+    margin-top: 15px;
+  }
+
+  .indexList {
+    padding: 15px;
+    background-color: whitesmoke;
+  }
+</style>
+
+<div id="learn-page">
+
+  
+  <!-- site navigation -->
+  <div class="column-span">
+    <nav class="sidebar-menu-nav-element">
+      <h2 id="menu-title" class="sr-only">网站导航</h2>
+      <input class="sidebar-menu-btn" type="checkbox" id="sidebar-menu-btn" />
+      <label class="sidebar-menu-icon" for="sidebar-menu-btn"><span class="sidebar-nav-icon"></span></label>
+      <ul id="menu" class="sidebar-menu" aria-labelledby="menu-title">
+        <li><a href="/zh-Hans/">主页</a></li>
+        <li><a href="https://editor.p5js.org">编辑器</a></li>
+        <li><a href="/zh-Hans/download/">下载</a></li>
+        <li><a href="/zh-Hans/download/support.html">捐赠</a></li>
+        <li><a href="/zh-Hans/get-started/">入门</a></li>
+        <li><a href="/zh-Hans/reference/">参考文献</a></li>
+        <li><a href="/zh-Hans/libraries/">程式库</a></li>
+        <li><a href="/zh-Hans/learn/">学习</a></li>
+        <li><a href="/zh-Hans/teach/">教学</a></li>
+        <li><a href="/zh-Hans/examples/">范例</a></li>
+        <li><a href="https://p5js.org/contributor-docs/#/">贡献</a></li>
+        <li><a href="/zh-Hans/books/">书籍</a></li>
+        <li><a href="/zh-Hans/community/">社群</a></li>
+        <li><a href="https://showcase.p5js.org">案例展示</a></li>
+  
+      </ul>
+    </nav>
+  </div>
+
+  <div class="column-span">
+
+    <main>
+      <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+
+      <iframe src="../../assets/learn/shaderIntro/titleExample.html" width="720" height="350">
+      </iframe>
+
+      <h1>着色器入门</h1>
+
+      <p>着色器是在图形处理单元（GPU）上运行的特殊程序，可以完成一些令人难以置信的任务。 它们利用 GPU 一次处理多个像素，使其快速且特别适用于某些任务，例如生成噪声、应用模糊滤镜或对多边形进行着色。 一开始学习着色器编程可能会让人望而却步，需要与 p5.js 的二维绘图不同的思路。本文档将概述着色器编程的基础知识，并指向其他资源。</p>
+
+      <div class="toc">
+        <h3>目录</h3>
+        <ol>
+          <li><a href="#setup">设置</a></li>
+          <li><a href="#shadinglanguage">着色语言 (GLSL)</a></li>
+          <li><a href="#uniforms">Uniforms: Passing data from sketch to shader</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>          
+          <li><a href="#glossary">词汇表</a></li>          
+        </ol>
+      </div>
+
+      <h2 id="setup">设置</h2>
+
+      <p>p5.js 是处理着色器的好工具，因为它处理了大部分 WebGL 的设置，使您可以专注于着色器代码本身。在开始使用着色器之前，我们必须设置画布，使其使用 p5.js WebGL 模型。
+      </p>
+
+      <pre><code class="language-javascript">
+      ...
+      function setup() {
+        createCanvas(windowWidth, windowHeight, WEBGL);
+      }
+      ..
+      </code></pre>
+
+      <p>着色器程序由两部分组成，一个<strong>顶点着色器</strong>和一个<strong>片元着色器</strong>。 顶点着色器影响3D几何图形在屏幕上的绘制位置，片元着色器则负责影响颜色输出。这两个部分分别存储在不同的文件中，并通过<a class="code">loadShader()</a>加载到p5.js中。一旦着色器被加载，它就可以在<a class="code">draw()</a>中使用。下面的示例将展示如何在p5.js中设置基本着色器：
+      </p>
+
+      <pre><code class="language-javascript">
+let myShader;
+
+function preload() {
+  // load each shader file (don't worry, we will come back to these!)
+  myShader = loadShader('shader.vert', 'shader.frag');
+}
+
+function setup() {
+  // the canvas has to be created with WEBGL mode
+  createCanvas(windowWidth, windowHeight, WEBGL);
+  describe('a simple shader example that outputs the color red')
+}
+
+function draw() {
+  // shader() sets the active shader, which will be applied to what is drawn next
+  shader(myShader);
+  // apply the shader to a rectangle taking up the full canvas
+  rect(0,0,width,height);
+}
+      </code></pre>
+
+      <h2 id="shadinglanguage">着色语言 (GLSL)</h2>
+
+      <p>现在你可能想知道我们实际上在这些着色器文件中写了什么！着色器文件是用图形库着色语言 (GLSL)编写的，它具有非常不同的语法和结构，与我们熟悉的语法和结构有很大不同。GLSL具有类似C的语法，这意味着它具有一些JavaScript中不存在的概念。</p>
+
+      <p>首先，着色语言在类型方面要严格得多。每个你创建的变量都必须用存储的数据类型进行标记。以下是一些常见类型的列表：</p>
+
+      <pre><code class="language-javascript">
+vec2(x,y) // 由两个浮点数组成的向量
+vec3(r,g,b) // 由三个浮点数组成的向量
+vec4(r,g,b,a) // 由四个浮点数组成的向量
+float // 带小数点的数字
+int // 不带小数点的整数
+sampler2D // 对纹理的引用
+
+      </code></pre>
+
+      <p>通常情况下，着色语言比 JavaScript 更加严格。例如，缺少分号将导致错误信息。 不能在不同类型的数字之间进行交换，如浮点数或整数。</p>
+
+      <p>首先，让我们看一个基本的顶点着色器：</p>
+
+      <pre><code class="language-javascript">
+attribute vec3 aPosition;
+
+void main() {
+  vec4 positionVec4 = vec4(aPosition, 1.0);
+  positionVec4.xy = positionVec4.xy * 2.0 - 1.0;
+  gl_Position = positionVec4;
+}
+</code></pre>
+
+      <p>这个顶点着色器以一个 <em>attribute</em> 开始，p5.js 使用它来与着色器共享顶点位置信息。这个 attribute 是一个 <a class="code">vec3</a>，意味着它包含一个 x、y 和 z 值。 Attributes 是特殊的变量类型，只在顶点着色器中使用，并且通常由 p5.js 提供。</p>
+
+      <p>所有顶点着色器都需要一个函数 <a class="code">main()</a>，在其中我们定位我们的顶点。 在这个例子中，顶点着色器重新定位我们的顶点，使着色器输出占据整个画布。在 <a class="code">main()</a> 的末尾，我们必须给 <a class="code">gl_Position</a> 赋值。</p>
+
+      <p>如果这还不是很清楚，也不要担心。顶点着色器起着重要的作用， 但通常只负责确保我们在片段着色器中创建的内容在几何体上正确地显示。 在许多项目中，您可能会发现自己反复使用相同的顶点着色器。 另一方面，片段着色器负责着色器的颜色输出，是我们进行大量着色器编程的地方。 以下是一个非常简单的片段着色器，它只会显示红色：</p>
+
+      <pre><code class="language-javascript">
+precision mediump float;
+
+void main() {
+  vec4 myColor = vec4(1.0, 0.0, 0.0, 1.0);
+  gl_FragColor = myColor;
+}
+</code></pre>
+
+      <p>The fragment shader begins with a line specifying the float 'precision'. this value you can either be lowp, mediump, or highp, although you will likely use mediump, or highp in certain situations.</p>
+
+      <pre><code class="language-javascript">precision mediump float;</code></pre>
+
+<p>And similar to the vertex shader, our fragment shader also requires a <a class="code">main()</a> function, but instead of setting <a class="code">gl_Position</a>, we will assign a color to <a class="code">gl_FragColor</a>.</p>
+
+<pre><code class="language-javascript">
+...
+vec4 myColor = vec4(1.0, 0.0, 0.0, 1.0);
+gl_FragColor = myColor;
+...
+</code></pre>
+
+<p>The variable, <a class="code">myColor</a>, is defined as a <a class="code">vec4</a>, meaning it stores 4 values. Since we are dealing with color, those four values are red, green, blue, and alpha. Shaders don't use 0 - 255 for colors like our sketches do, instead they use values between 0.0 and 1.0.</p>
+
+      <p>Now that we have a vertex shader and a fragment shader, these can be saved to separate files (shader.vert and shader.frag respectively), and loaded into our sketch using <a class="code">loadShader()</a>.</p>
+
+      <h2 id="uniforms">Uniforms: Passing data from sketch to shader</h2>
+
+      <p>A simple shader like this can be useful by itself, but there are times when it's necessary to communicate variables from the p5.js sketch to a shader. This is when uniforms come in. Uniforms are special variables that can be sent from a sketch to a shader. These make it possible to have much more control over a shader. For example, you could use the p5.js method <a class="code">millis()</a> to pass a 'time' uniform to our sketch to introduce motion. In the shader, uniforms are defined at the top of the file, outside of <a class="code">main()</a>. In this following fragment shader we are creating a color uniform, <a class="code">myColor</a>, that will allow us to change the color from our sketch.</p>
+
+      <pre><code class="language-javascript">
+precision mediump float;
+
+uniform vec3 myColor;
+
+void main() {
+  // the color we have passed in as a uniform is assigned to the pixel
+  gl_FragColor = vec4(myColor, 1.0);
+}
+      </code></pre>
+
+      <p>Back in our p5.js sketch, this color can now be sent using <a class="code">setUniform()</a>:</p>
+
+      <pre><code class="language-javascript">
+...
+function draw() {
+  shader(myShader);
+  // setUniform can then be used to pass data to our shader variable, myColor
+  myShader.setUniform('myColor', [1.0,0.0,0.0]); // send red as a uniform
+  // apply the shader to a rectangle taking up the full canvas
+  rect(0,0,width,height);
+}
+...
+      </code></pre>
+
+      <p>There are also <em>attributes</em>, which are usually used to share certain data about the geometry between the sketch and the vertex shader, and <em>varying</em> variables, which share data between the vertex shader and the fragment shader. This makes it possible to use position or other geometry data within our fragment shaders.</p>
+
+      <pre><code class="language-javascript">
+// (thank you to Adam Ferriss for the foundation of these example shaders)
+// position information that is used with gl_Position
+attribute vec3 aPosition;
+
+// texture coordinates 
+attribute vec2 aTexCoord;
+
+// the varying variable will pass the texture coordinate to our fragment shader
+varying vec2 vTexCoord;
+
+void main() {
+  // assign attribute to varying, so it can be used in the fragment
+  vTexCoord = aTexCoord;
+
+  vec4 positionVec4 = vec4(aPosition, 1.0);
+  positionVec4.xy = positionVec4.xy * 2.0 - 1.0;
+  gl_Position = positionVec4;
+}
+</code></pre>
+
+      <p>Now with the texture coordinate attribute assigned to the varying variable, we can use the texture coordinate in our fragment shader. The result in the example below is a blue and magenta visualization of our texture coordinates.</p>
+
+      <div style="display:flex; align-items: center; justify-content: center;">
+        <pre><code class="language-javascript">
+precision mediump float;
+
+varying vec2 vTexCoord;
+
+void main() {
+  // now because of the varying vTexCoord, we can access the current texture coordinate
+  vec2 uv = vTexCoord;
+  
+  // and now these coordinates are assigned to the color output of the shader
+  gl_FragColor = vec4(uv,1.0,1.0);
+}
+</code></pre>
+        <img style="padding:30px;width:30%;" src='../../assets/learn/basic3d/images/uv_example.png'
+          alt="an illustration showing UV coordinates, the x axis in red, and the y axis in blue.">
+      </div>
+
+
+      <div class="additionalInformation">
+        p5.js handles a lot of attributes and uniforms for us, and <a href="https://github.com/processing/p5.js/blob/374acfb44588bfd565c54d61264df197d798d121/contributor_docs/webgl_mode_architecture.md">you can view a list of all of the attributes that p5.js sends to the shader</a>.
+      </div>
+
+      <h2 id="conclusion">Conclusion</h2>
+
+      <p>With these skills you will be able to create some basic shaders, but shader programming can go incredibly deep, and there are many shader topics that go beyond this tutorial. Shaders in p5.js can be a powerful tool for creating visuals, effects, and even textures that can be mapped to your 3D geometry.
+      </p>
+
+      <p>Want to keep learning more about shaders? Check out some of these websites!</p>
+
+      <ul class="indexList">
+        <li><a href="https://thebookofshaders.com/">The Book of Shaders</a>, a shader guide by Patricio Gonzalez Vivo
+  and
+  Jen Lowe.</li>
+<li><a href="https://itp-xstory.github.io/p5js-shaders/#/">P5.js shaders</a>, a shader guide by Casey Conchinha
+  and
+  Louise Lessél.</li>
+<li><a href="https://www.shadertoy.com/">Shadertoy</a>, a massive online collection of shaders that are written in a browser editor.</li> <li><a href="https://github.com/aferriss/p5jsShaderExamples">p5jsShaderExamples</a>, a collection of resources
+  by
+  Adam Ferriss.</li>
+      </ul>
+
+      <h3>其他教程</h3>
+      <p>这个教程是关于使用 p5.js 中 WebGL 基础的系列之一。以下是其他教程： </p>
+      <ul class="indexList">
+        <li><a href="/zh-Hans/learn/getting-started-in-webgl-coords-and-transform.html">坐标和变换</a></li>
+        <li><a href="/zh-Hans/learn/getting-started-in-webgl-custom-geometry.html">在 WebGL 中创建自定义几何图形</a></li>
+        <li><a href="/zh-Hans/learn/getting-started-in-webgl-appearance.html">样式和外观</a></li>
+        <li>入门 Shaders （你现在处于这里）</li>
+      </ul>
+
+      <h2 id="glossary">词汇表</h2>
+
+      <h3>Shader</h3>
+      <p>A special graphics card program that can efficiently produce many visual effects and filters.</p>
+
+      <h3>GLSL</h3>
+      <p>Graphics Library Shader Language (GLSL) is a programming language that is used to write shaders.</p>
+
+      <h3>Uniform</h3>
+      <p>A variable that is passed from your sketch to a shader</p>
+
+      <h3>Vector</h3>
+      <p>A data type that stores a group of numbers, most commonly two, three, or four, to represent colors, positions, and more.</p>
+
+      <h3>Float</h3>
+      <p>A data type that stores floating point numbers, which can have a decimal point.</p>
+
+      <h3>Int</h3>
+      <p>A data type that stores integers, which are whole numbers without a decimal.</p>
+
+      <h3>Sampler</h3>
+      <p>A data type that represents a texture being passed into the shader.</p>
+
+      <h3>Attribute</h3>
+      <p>A GLSL variable that is generated in the p5.js sketch and made available in the vertex shader. For most situations these are provided by p5.js.</p>
+
+      <h3>Texture</h3>
+      <p>An image that passed into a shader program.</p>
+
+      <h3>Type</h3>
+      <p>A label describing the characterics of a piece of data, such as an int, a float, a vector, etc.</p>
+
+      <h3>Vertex Shader</h3>
+      <p>The part of a shader program that is responsible for positioning geometry in 3D space.</p>
+
+      <h3>Fragment Shader</h3>
+      <p>The part of a shader program that is responsible for the color and appearance of each pixel output by the shader.  </p>
+
+    </main>
+
+    
+    <footer>
+        <h2 class="sr-only">归功于</h2>
+        <ul id="footer-menu" aria-labelledby="menu-title">   
+          <li><a href="https://discourse.processing.org/c/p5js" target=_blank class="other-link">论坛</a></li>
+          <li><a href="http://github.com/processing/p5.js" target=_blank class="other-link">GitHub</a></li>
+          <li><a href="http://twitter.com/p5xjs" target=_blank class="other-link">Twitter</a></li>
+          <li><a href="https://www.instagram.com/p5xjs/" target=_blank class="other-link">Instagram</a></li>
+          <li><a href="https://discord.gg/SHQ8dH25r9" target=_blank class="other-link">Discord</a></li>
+        </ul>  
+        
+        <p>
+            p5.js 目前由<a href='http://qianqian-ye.com/' target="_blank">Qianqian Ye</a>领导，原创者为<a href='https://lauren-mccarthy.com' target="_blank">Lauren Lee McCarthy</a>。p5.js 是在<a href="https://processingfoundation.org/" target="_blank">Processing Foundation</a>和<a href="https://itp.nyu.edu/itp/" target="_blank">NYU ITP</a>的支持下由其合作社群所开发。形象及平面设计<a href="https://jereljohnson.com/" target="_blank">Jerel Johnson</a>。<a href="/zh-Hans/copyright.html">&copy; 版权信息</a>。
+        </p>
+    </footer>
+
+  </div> <!-- end column-span -->
+
+  
+  <!-- outside of column for footer to go across both -->
+  
+  <p class="clearfix"> &nbsp; </p>
+  
+  <object type="image/svg+xml" data="../../assets/img/thick-asterisk-alone.svg" id="asterisk-design-element" aria-hidden="true">
+  </object>
+
+</div><!-- end id="get-started-page"  -->
+
+    </div> <!-- close class='container'-->
+
+    
+    <nav id="family" aria-labelledby="processing-sites-heading">
+      <h2 id="processing-sites-heading" class="sr-only">Processing Sister Sites</h2>
+      <ul id="processing-sites" aria-labelledby="processing-sites-heading">
+        <li><a href="https://processing.org">Processing</a></li>
+        <li><a class="here" href="/zh-Hans/">p5.js</a></li>
+        <li><a href="https://py.processing.org/">Processing.py</a></li>
+        <li><a href="https://android.processing.org/">Processing for Android</a></li>
+        <li><a href="https://pi.processing.org/">Processing for Pi</a></li>
+        <li><a href="https://processingfoundation.org/">Processing Foundation</a></li>
+      </ul>
+      <a tabindex="1" href="#content" id="skip-to-content">Skip to main content</a>
+    
+    
+    </nav>
+    <script>
+    var langs = ["en","es","hi","ko","zh-Hans"];
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-53383000-1', 'auto');
+    ga('send', 'pageview');
+
+    $(window).ready(function() {
+      if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+        $('#top').remove();
+      } else {
+        $('#top').show();
+      }
+    });
+    </script>
+
+
+  </body>
+</html>
