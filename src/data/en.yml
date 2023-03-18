@@ -307,13 +307,12 @@ download:
   support-30-alt: ''
   support-31-alt: ''
 learn:
-  learn-title: Learn
+  learn-title: 学習
   teach-title2: Teach
   learn1: >-
-    These tutorials provide more in-depth or step-by-step overviews of
-    particular topics. Check out the
+    これらのチュートリアルでは、特定のトピックについて、より深く、またはステップバイステップで概要を説明します。
   learn2: examples page
-  learn3: to explore short demonstrations of various p5.js topics.
+  learn3: では、p5.jsの様々なトピックの短いデモをご覧いただけます。
   introduction-to-p5js-title: Introduction to p5.js
   hello-p5js-title: Hello p5.js
   hello-p5js: >-
