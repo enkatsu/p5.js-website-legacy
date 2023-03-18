@@ -9,7 +9,7 @@ Start: スタート
 Reference: リファレンス
 Libraries: ライブラリ
 Learn: 学習
-Teach: 教える
+Teach: 教育
 Examples: サンプル
 Books: 書籍
 Community: コミュニティ
@@ -205,15 +205,13 @@ get started:
 download:
   Download: ダウンロード
   download-intro: >-
-    Welcome! While titled "Download" this page actually contains a collection of
-    links to either download the library or begin working with it online. We've
-    tried to order things to reflect what a beginner might want first, to
-    resources that more experienced programmers may be looking for.
-  editor-title: Editor
+    ようこそ！このページには「ダウンロード」というタイトルが付いていますが、
+    実際にはライブラリをダウンロードしたり、オンラインで作業を開始したりするためのリンク集が含まれています。
+    初心者が最初に求めるものから、経験豊富なプログラマーが求めるリソースまで、順番に紹介するようにしています。
+  editor-title: エディタ
   p5.js-editor: p5.js Editor
   p5.js-editor-intro: >-
-    This link redirects you to the p5.js Editor online so you can begin using
-    p5.js immediately.
+    このリンクをクリックすると、p5.js Editorが表示されますので、すぐにp5.jsを使用することができます。
   editor-includes: 'Start coding using the p5.js Editor, no setup required!'
   complete-library-title: Complete Library
   complete-library-intro1: >-
@@ -239,19 +237,18 @@ download:
   github-repository: Code repository (GitHub)
   report-bugs: 'Report issues, bugs, and errors'
   supported-browsers: 'Supported browsers '
-  support-title: Support p5.js!
+  support-title: p5.jsをサポートする！
   support-options: Support Options
   support-1:
-    'We need your help! p5.js is free, open-source software. We want to make our community as open
-    and inclusive as possible. You can support this work by making a donation to
-    the '
+    'あなたの助けが必要です！p5.jsはフリーでオープンソースのソフトウェアです。
+    私たちは、私たちのコミュニティを可能な限りオープンで包括的なものにしたいと考えています。
+    p5.jsをサポートする組織である'
   support-2: >-
-    , the organization that supports p5.js.
-    Your donation supports software development for p5.js, education resources
-    like code examples and tutorials,
-  support-3: Fellowships
-  support-4: ', and '
-  support-5: community events.
+    に寄付をすることで、この作業をサポートすることができます。
+    あなたの寄付は、p5.jsのソフトウェア開発、コード例やチュートリアルなどの教育リソース、
+  support-3: フェローシップ
+  support-4: '、'
+  support-5: コミュニティイベントなどをサポートします。
   support-17: >-
     p5.js Contributors Conference at CMU STUDIO for Creative Inquiry in
     Pittsburgh (Image credit: Taeyoon Choi)
@@ -310,13 +307,12 @@ download:
   support-30-alt: ''
   support-31-alt: ''
 learn:
-  learn-title: Learn
+  learn-title: 学習
   teach-title2: Teach
   learn1: >-
-    These tutorials provide more in-depth or step-by-step overviews of
-    particular topics. Check out the
+    これらのチュートリアルでは、特定のトピックについて、より深く、またはステップバイステップで概要を説明します。
   learn2: examples page
-  learn3: to explore short demonstrations of various p5.js topics.
+  learn3: では、p5.jsの様々なトピックの短いデモをご覧いただけます。
   introduction-to-p5js-title: Introduction to p5.js
   hello-p5js-title: Hello p5.js
   hello-p5js: >-
@@ -1195,7 +1191,7 @@ learn:
     to specify the width and height of the canvas.
   teach-desc: 'Teach a p5 workshop or class, or create teaching materials!'
 libraries:
-  Libraries: Libraries
+  Libraries: ライブラリ
   core-libraries: Core Libraries
   community-libraries: Community Libraries
   libraries-created-by: 'Created by:'
@@ -1387,13 +1383,12 @@ libraries:
   p5.utils: >-
     A set of utilities and additional features for my creative coding class aiming 
     to help students.
-  using-a-library-title: Using a library
+  using-a-library-title: ライブラリを使う
   using-a-library1: >-
-    A p5.js library can be any JavaScript code that extends or adds to the p5.js
-    core functionality. There are two categories of libraries. Core libraries (
+    p5.jsライブラリは、p5.jsのコア機能を拡張したり、追加したりするJavaScriptコードになります。
+    ライブラリには、2つのカテゴリがあります。コアライブラリ（
   using-a-library3: >-
-    ) are part of the p5.js distribution, while contributed libraries are
-    developed, owned, and maintained by members of the p5.js community.
+    ）はp5.jsの配布物の一部であり、貢献ライブラリはp5.jsコミュニティのメンバーによって開発、所有、維持されているものです。
   using-a-library4: >-
     To include a library in your sketch, link it into your HTML file, after you
     have linked in p5.js. An example HTML file might look like this:
@@ -1405,11 +1400,10 @@ libraries:
     If you have created a library and would like to have it included on this
     page, submit this form!
 community:
-  community-title: Community
-  community-statement-title: p5.js Community Statement
+  community-title: コミュニティ
+  community-statement-title: p5.jsコミュニティ・ステートメント
   community-statement1: >-
-    p5.js is a community interested in exploring the creation of art and design
-    with technology.
+    p5.jsは、テクノロジーによるアートやデザインの創造を探求することに興味を持つコミュニティです。
   community-statement2: >-
     We are a community of, and in solidarity with, people from every gender
     identity and expression, sexual orientation, race, ethnicity, language,
@@ -1683,7 +1677,7 @@ community:
   2022-p5js-access-day-transcriber: Closed Captioning Transcription Support
   2022-p5js-access-day-asl-support: Live ASL Support
 books:
-  books-title: Books
+  books-title: 書籍
   book-1-title: Getting Started with p5.js
   book-1-authors: 'Lauren McCarthy, Casey Reas, and Ben Fry. Illustrations by Taeyoon Choi.'
   book-1-publisher: 'Published October 2015, Maker Media. '
@@ -1756,11 +1750,11 @@ books:
   book-6-order-a: Download the PDF (FREE)
   book-6-order-b: Order from Barnes & Noble
 examples:
-  Examples: Examples
+  Examples: サンプル
   back-examples: Back to Examples
-  Structure: Structure
-  Form: Form
-  Data: Data
+  Structure: 構造
+  Form: 形状
+  Data: データ
   Arrays: Arrays
   Control: Control
   Image: Image
@@ -2091,15 +2085,13 @@ showcase:
   project-a-5-1-moon: 'Check out the '
   project-a-5-2-moon: ' in Milan, Italy.'
 teach:
-  teach-title2: Teach
+  teach-title2: 教育
   teach-intro1: >-
-    Every teaching has its own unique goals, messages, conditions, and
-    environments.
+    すべての指導には、独自の目標、メッセージ、条件、環境があります。
   teach-intro2: >-
-    By documenting and sharing p5 workshops, classes, and materials, we hope to
-    better connect the p5.js learner and educator communities around the world.
-  teach-intro3: Share or recommend
-  teach-intro4: 'your own teaching experiences, too!'
+    p5のワークショップやクラス、資料を記録し共有することで、世界中のp5.js学習者・教育者コミュニティをより良くつなげたいと考えています。
+  teach-intro3: あなたの指導経験もシェアしたり、推薦してください。
+  teach-intro4: ''
   teach-heading: p5 Teaching Resources
   teach-search-filter: Search Filter
   teach-filter1: 'Diversity & Inclusion : '
