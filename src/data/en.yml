@@ -9,7 +9,7 @@ Start: スタート
 Reference: リファレンス
 Libraries: ライブラリ
 Learn: 学習
-Teach: 教える
+Teach: 教育
 Examples: サンプル
 Books: 書籍
 Community: コミュニティ
@@ -2086,15 +2086,13 @@ showcase:
   project-a-5-1-moon: 'Check out the '
   project-a-5-2-moon: ' in Milan, Italy.'
 teach:
-  teach-title2: Teach
+  teach-title2: 教育
   teach-intro1: >-
-    Every teaching has its own unique goals, messages, conditions, and
-    environments.
+    すべての指導には、独自の目標、メッセージ、条件、環境があります。
   teach-intro2: >-
-    By documenting and sharing p5 workshops, classes, and materials, we hope to
-    better connect the p5.js learner and educator communities around the world.
-  teach-intro3: Share or recommend
-  teach-intro4: 'your own teaching experiences, too!'
+    p5のワークショップやクラス、資料を記録し共有することで、世界中のp5.js学習者・教育者コミュニティをより良くつなげたいと考えています。
+  teach-intro3: あなたの指導経験もシェアしたり、推薦してください。
+  teach-intro4: ''
   teach-heading: p5 Teaching Resources
   teach-search-filter: Search Filter
   teach-filter1: 'Diversity & Inclusion : '
