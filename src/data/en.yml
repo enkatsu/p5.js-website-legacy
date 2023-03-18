@@ -2,14 +2,14 @@ Skip-To-Content: Skip to content
 Language-Settings: Language Settings
 Sidebar-Title: Site Navigation
 Home: ホーム
-Editor: Editor
+Editor: エディタ
 Download: ダウンロード
-Donate: Donate
+Donate: 寄付
 Start: スタート
 Reference: リファレンス
 Libraries: ライブラリ
 Learn: 学習
-Teach: Teach
+Teach: 教える
 Examples: サンプル
 Books: 書籍
 Community: コミュニティ
@@ -33,7 +33,7 @@ tagline5: Processing community times JavaScript community
 tagline6: the power of Processing times the reach of JavaScript
 tagline7: The p5.js community stands in solidarity with Black Lives Matter.
 home:
-  start-creating: Start creating with the p5 Editor!
+  start-creating: p5 Editorで制作を始めよう！
   p1xh1: こんにちは！
   p1x1: >-
     p5.jsは、クリエイティブなコーディングのためのJavaScriptライブラリで、
@@ -59,9 +59,9 @@ home:
   p3xh2: はじめよう！
   p3xp1: ''
   p3xp2: 'で最初のスケッチを作成します。p5.jsを使ったスケッチについては'
-  p3xp3: Get Started page
+  p3xp3: 「はじめよう！」
   p3xp4: 'ページで、できることについては'
-  p3xp5: Reference
+  p3xp5: 「リファレンス」
   p3xp6: で詳しく説明しています。
   p4xh2: 参加する
   p4xp1: 'p5.jsに貢献する方法はたくさんあります:'
