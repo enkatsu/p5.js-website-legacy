@@ -203,17 +203,15 @@ get started:
     Copyright © 2015. All rights reserved. Last modified at the p5.js 2019
     Contributors Conference.
 download:
-  Download: Download
+  Download: ダウンロード
   download-intro: >-
-    Welcome! While titled "Download" this page actually contains a collection of
-    links to either download the library or begin working with it online. We've
-    tried to order things to reflect what a beginner might want first, to
-    resources that more experienced programmers may be looking for.
-  editor-title: Editor
+    ようこそ！このページには「ダウンロード」というタイトルが付いていますが、
+    実際にはライブラリをダウンロードしたり、オンラインで作業を開始したりするためのリンク集が含まれています。
+    初心者が最初に求めるものから、経験豊富なプログラマーが求めるリソースまで、順番に紹介するようにしています。
+  editor-title: エディタ
   p5.js-editor: p5.js Editor
   p5.js-editor-intro: >-
-    This link redirects you to the p5.js Editor online so you can begin using
-    p5.js immediately.
+    このリンクをクリックすると、p5.js Editorが表示されますので、すぐにp5.jsを使用することができます。
   editor-includes: 'Start coding using the p5.js Editor, no setup required!'
   complete-library-title: Complete Library
   complete-library-intro1: >-
