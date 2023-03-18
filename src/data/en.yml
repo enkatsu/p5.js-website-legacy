@@ -1192,7 +1192,7 @@ learn:
     to specify the width and height of the canvas.
   teach-desc: 'Teach a p5 workshop or class, or create teaching materials!'
 libraries:
-  Libraries: Libraries
+  Libraries: ライブラリ
   core-libraries: Core Libraries
   community-libraries: Community Libraries
   libraries-created-by: 'Created by:'
@@ -1384,13 +1384,12 @@ libraries:
   p5.utils: >-
     A set of utilities and additional features for my creative coding class aiming 
     to help students.
-  using-a-library-title: Using a library
+  using-a-library-title: ライブラリを使う
   using-a-library1: >-
-    A p5.js library can be any JavaScript code that extends or adds to the p5.js
-    core functionality. There are two categories of libraries. Core libraries (
+    p5.jsライブラリは、p5.jsのコア機能を拡張したり、追加したりするJavaScriptコードになります。
+    ライブラリには、2つのカテゴリがあります。コアライブラリ（
   using-a-library3: >-
-    ) are part of the p5.js distribution, while contributed libraries are
-    developed, owned, and maintained by members of the p5.js community.
+    ）はp5.jsの配布物の一部であり、貢献ライブラリはp5.jsコミュニティのメンバーによって開発、所有、維持されているものです。
   using-a-library4: >-
     To include a library in your sketch, link it into your HTML file, after you
     have linked in p5.js. An example HTML file might look like this:
