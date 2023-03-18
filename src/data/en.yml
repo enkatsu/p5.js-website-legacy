@@ -1751,11 +1751,11 @@ books:
   book-6-order-a: Download the PDF (FREE)
   book-6-order-b: Order from Barnes & Noble
 examples:
-  Examples: Examples
+  Examples: サンプル
   back-examples: Back to Examples
-  Structure: Structure
-  Form: Form
-  Data: Data
+  Structure: 構造
+  Form: 形状
+  Data: データ
   Arrays: Arrays
   Control: Control
   Image: Image
