@@ -1,21 +1,21 @@
 Skip-To-Content: Skip to content
 Language-Settings: Language Settings
 Sidebar-Title: Site Navigation
-Home: Home
+Home: ホーム
 Editor: Editor
-Download: Download
+Download: ダウンロード
 Donate: Donate
-Start: Get Started
-Reference: Reference
-Libraries: Libraries
-Learn: Learn
+Start: スタート
+Reference: リファレンス
+Libraries: ライブラリ
+Learn: 学習
 Teach: Teach
-Examples: Examples
-Books: Books
-Community: Community
-Contribute: Contribute
-Forum: Forum
-Showcase: Showcase
+Examples: サンプル
+Books: 書籍
+Community: コミュニティ
+Contribute: 貢献
+Forum: フォーラム
+Showcase: ショーケース
 footerxh1: Credits
 footer1: 'p5.js is currently led by '
 footer3: ' and was created by '
@@ -34,46 +34,42 @@ tagline6: the power of Processing times the reach of JavaScript
 tagline7: The p5.js community stands in solidarity with Black Lives Matter.
 home:
   start-creating: Start creating with the p5 Editor!
-  p1xh1: Hello!
+  p1xh1: こんにちは！
   p1x1: >-
-    p5.js is a JavaScript library for creative coding, with a focus on making
-    coding accessible and inclusive for artists, designers, educators,
-    beginners, and anyone else! p5.js is free and open-source because we believe
-    software, and the tools to learn it, should be accessible to everyone.
+    p5.jsは、クリエイティブなコーディングのためのJavaScriptライブラリで、
+    アーティスト、デザイナー、教育者、初心者、その他誰にとっても、コーディングを身近で包括的なものにすることに焦点を当てています。
+    p5.jsはフリーかつオープンソースで、ソフトウェアやそれを学ぶためのツールは、誰もがアクセスできなければならないと私たちは考えています。
   p1x2: >-
-    Using the metaphor of a sketch, p5.js has a full set of drawing
-    functionality. However, you’re not limited to your drawing canvas. You can
-    think of your whole browser page as your sketch, including HTML5 objects for
-    text, input, video, webcam, and sound.
-  p2xh2: Community
+    スケッチに例えると、p5.jsは描画のフルセットを持っています。の機能です。
+    しかし、描画キャンバスに限ったことではありません。
+    できることは のためのHTML5オブジェクトを含む、ブラウザのページ全体をスケッチとして考えてください。
+    テキスト、入力、ビデオ、ウェブカメラ、サウンド。
+  p2xh2: コミュニティ
   p2x1: >-
-    We are a community of, and in solidarity with, people from every gender
-    identity and expression, sexual orientation, race, ethnicity, language,
-    neuro-type, size, disability, class, religion, culture, subculture,
-    political opinion, age, skill level, occupation, and background. We
-    acknowledge that not everyone has the time, financial means, or capacity to
-    actively participate, but we recognize and encourage involvement of all
-    kinds. We facilitate and foster access and empowerment. We are all learners.
-  p2x2: 'p5.js is an interpretation of '
-  p2x3: ' for today’s web. We hold events and operate with support from the '
-  p2x4: .
-  p2x5: 'Learn more about '
-  p2x6: our community
-  p2x7: .
-  p3xh2: Get Started
-  p3xp1: 'Make your first sketch in the '
-  p3xp2: '. Learn more about sketching with p5.js on the '
+    私たちは、あらゆる性自認と表現、性的指向、人種、民族、言語、神経型、体格、障害、階級、宗教、文化、サブカルチャー、
+    政治的意見、年齢、スキルレベル、職業、背景を持つ人々のコミュニティであり、それと連帯しています。
+    私たちは、すべての人が積極的に参加する時間、経済的手段、能力を持っているわけではないことを認めますが、
+    あらゆる種類の参加を認め、奨励します。私たちは、アクセスやエンパワーメントを促進し、育成します。私たちは皆、学習者です。
+  p2x2: 'p5.jsは、'
+  p2x3: 'を今日のWebのために解釈したものです。イベント開催や'
+  p2x4: からの支援を受けて運営しています。
+  p2x5: ''
+  p2x6: 私たちのコミュニティ
+  p2x7: について詳しく知ることができます。
+  p3xh2: はじめよう！
+  p3xp1: ''
+  p3xp2: 'で最初のスケッチを作成します。p5.jsを使ったスケッチについては'
   p3xp3: Get Started page
-  p3xp4: ' and everything you can do in the '
+  p3xp4: 'ページで、できることについては'
   p3xp5: Reference
-  p3xp6: .
-  p4xh2: Get Involved
-  p4xp1: 'There are many ways to contribute to p5.js:'
+  p3xp6: で詳しく説明しています。
+  p4xh2: 参加する
+  p4xp1: 'p5.jsに貢献する方法はたくさんあります:'
   p4xp2: Involvement Options
   p4xp3: Share something you've made!
-  p4xp4: Teach a workshop or class.
-  p4xp5: Organize a meet-up.
-  p4xp6: Contribute to the codebase.
+  p4xp4: ワークショップやクラスを担当する
+  p4xp5: ミートアップを開催する
+  p4xp6: コードベースに貢献する
   sketch_credits: Sketch Credits
   sketch_info: Hunminjeongeum2020 created by Seonghyeon Kim
 copyright:
