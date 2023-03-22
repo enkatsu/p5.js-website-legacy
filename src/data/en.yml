@@ -1392,8 +1392,8 @@ libraries:
   using-a-library3: >-
     ）はp5.jsの配布物の一部であり、貢献ライブラリはp5.jsコミュニティのメンバーによって開発、所有、維持されているものです。
   using-a-library4: >-
-    To include a library in your sketch, link it into your HTML file, after you
-    have linked in p5.js. An example HTML file might look like this:
+    スケッチにライブラリを含めるには、p5.jsをリンクした後にHTMLファイルにリンクします。
+    例えば、HTMLファイルは次のようになります。
   create-your-own-title: Create Your Own
   create-your-own1: p5.js welcomes libraries contributed by others! Check out the
   create-your-own2: libraries tutorial
