@@ -322,7 +322,7 @@ learn:
     it.
   getting-started-title: Getting Started
   getting-started: >-
-    Welcome to p5.js! <br> This introduction covers the basics of setting up a
+    p5.jsへようこそ! <br> This introduction covers the basics of setting up a
     p5.js project.
   p5js-overview-title: p5.js overview
   p5js-overview: An overview of the main features of p5.js.
