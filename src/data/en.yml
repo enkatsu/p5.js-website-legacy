@@ -322,7 +322,7 @@ learn:
     it.
   getting-started-title: Getting Started
   getting-started: >-
-    Welcome to p5.js! <br> This introduction covers the basics of setting up a
+    p5.jsへようこそ! <br> This introduction covers the basics of setting up a
     p5.js project.
   p5js-overview-title: p5.js overview
   p5js-overview: An overview of the main features of p5.js.
@@ -1392,8 +1392,8 @@ libraries:
   using-a-library3: >-
     ）はp5.jsの配布物の一部であり、貢献ライブラリはp5.jsコミュニティのメンバーによって開発、所有、維持されているものです。
   using-a-library4: >-
-    To include a library in your sketch, link it into your HTML file, after you
-    have linked in p5.js. An example HTML file might look like this:
+    スケッチにライブラリを含めるには、p5.jsをリンクした後にHTMLファイルにリンクします。
+    例えば、HTMLファイルは次のようになります。
   create-your-own-title: Create Your Own
   create-your-own1: p5.js welcomes libraries contributed by others! Check out the
   create-your-own2: libraries tutorial
@@ -1414,10 +1414,9 @@ community:
     あらゆる形態の参加を認め、促進しています。私たちは参加可能性と自己実現を促進し、支援します。
     私たちは皆学びのプロセスにあります。
   community-statement3: >-
-    We like these hashtags: #noCodeSnobs (because we value community over
-    efficiency), #newKidLove (because we all started somewhere), #unassumeCore
-    (because we don't assume knowledge), and #BlackLivesMatter (because of
-    course).
+    私たちは、これらのハッシュタグが好きです。#noCodeSnobs（なぜなら、効率よりもコミュニティを重視するから）、
+    #newKidLove（私たちは誰もがどこかから始めたから）、#unassumeCore（私たちは知識を前提としないから）、
+    そして#BlackLivesMatter（もちろん）。
   in-practice-title: 'In practice:'
   in-practice1: ' We are not code snobs. We do not assume knowledge or imply there are things that somebody should know. '
   in-practice2: >-
