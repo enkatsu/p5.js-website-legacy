@@ -94,19 +94,19 @@ get started:
   get-started7: ダウンロードの手順までスクロールしてください。
   get-started-button: 'コピー'
   settingUp-title: 自分のコンピュータにエディタを使ってp5.jsをセットアップする
-  download-title: Downloading a copy of the p5.js library
+  download-title: p5.jsライブラリのダウンロード
   hosted-title: Using a hosted version of the p5.js library
-  download1: 'The easiest way to start is by using the empty example that comes with the '
-  download2: p5.js complete
-  download3: ' download.'
-  download8: 'After download, you need to set up a local server. See instructions '
-  download9: here
-  download10: '. Run your local server within the downloaded folder and on your browser, go to '
-  download11: 'http://localhost:{your-port-num}/empty-example'
+  download1: 'p5.jsを初める最も簡単な方法は、'
+  download2: p5.jsライブラリの完全版
+  download3: ' に付属している空のサンプルを使用することです。'
+  download8: 'ダウンロード後、ローカルサーバを設定する必要があります。ローカルサーバの設定方法は'
+  download9: こちら
+  download10: '。ダウンロードしたフォルダ内でローカルサーバを起動し、ブラウザで次のURLにアクセスして下さい'
+  download11: 'http://localhost:{ポート番号}/empty-example'
   download4: >-
-    If you look in index.html, you'll notice that it links to the file p5.js. If
-    you would like to use the minified version (compressed for faster page
-    loading), change the link to p5.min.js.
+    index.htmlを見ると、p5.jsというファイルへのリンクがあることがわかります。
+    もし、縮小バージョン（ページの読み込みを速くするために圧縮されたもの）
+    を使用したい場合は、リンクをp5.min.jsに変更します。
   download5: >-
     Alternatively, you can link to a p5.js file hosted online. All versions of
     p5.js are stored in a CDN (Content Delivery Network). You can find a history
