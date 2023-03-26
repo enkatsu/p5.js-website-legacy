@@ -95,7 +95,7 @@ get started:
   get-started-button: 'コピー'
   settingUp-title: 自分のコンピュータにエディタを使ってp5.jsをセットアップする
   download-title: p5.jsライブラリのダウンロード
-  hosted-title: Using a hosted version of the p5.js library
+  hosted-title: オンラインで公開されているp5.jsライブラリを使用する
   download1: 'p5.jsを初める最も簡単な方法は、'
   download2: p5.jsライブラリの完全版
   download3: ' に付属している空のサンプルを使用することです。'
@@ -108,11 +108,11 @@ get started:
     もし、縮小バージョン（ページの読み込みを速くするために圧縮されたもの）
     を使用したい場合は、リンクをp5.min.jsに変更します。
   download5: >-
-    Alternatively, you can link to a p5.js file hosted online. All versions of
-    p5.js are stored in a CDN (Content Delivery Network). You can find a history
-    of these versions in the
-  download6: '. In this case you can change the link to:'
-  download7: 'A sample HTML page might look like this:'
+    あるいは、オンラインで公開されている p5.js ファイルにリンクすることもできます。
+    p5.js のすべてのバージョンは、CDN (コンテンツデリバリーネットワーク) に保存されています。
+    これらのバージョンの履歴は
+  download6: 'から見る事ができます。CDNを使う場合、リンクを以下のように変更できます:'
+  download7: 'HTMLのサンプルは次の様になります:'
   environment-title: Environment
   environment1: '自分のコンピュータでp5.jsを実行するには、コードエディタが必要です。 あなたの好きな '
   environmentlink: 'http://en.wikipedia.org/wiki/Source_code_editor'
