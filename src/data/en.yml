@@ -102,7 +102,7 @@ get started:
   download8: 'ダウンロード後、ローカルサーバを設定する必要があります。ローカルサーバの設定方法は'
   download9: こちら
   download10: '。ダウンロードしたフォルダ内でローカルサーバを起動し、ブラウザで次のURLにアクセスして下さい'
-  download11: 'http://localhost:{your-port-num}/empty-example'
+  download11: 'http://localhost:{ポート番号}/empty-example'
   download4: >-
     index.htmlを見ると、p5.jsというファイルへのリンクがあることがわかります。
     もし、縮小バージョン（ページの読み込みを速くするために圧縮されたもの）
