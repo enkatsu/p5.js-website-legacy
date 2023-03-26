@@ -324,8 +324,8 @@ learn:
   getting-started: >-
     p5.jsへようこそ！ <br> 
     ここではp5.jsの基礎的なセットアップ手順を説明します。
-  p5js-overview-title: p5.jsの概要
-  p5js-overview: p5.jsの主な機能の概要です。
+  p5js-overview-title: p5.jsについて
+  p5js-overview: p5.jsの主な機能について簡単に説明します。
   p5js-processing-title: p5.jsとProcessing
   p5js-processing: >-
     p5.jsとProcessingの主な違いと、書き換え方を説明します。
