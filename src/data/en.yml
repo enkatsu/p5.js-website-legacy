@@ -91,7 +91,8 @@ get started:
   get-started5: はじめてのスケッチ
   get-started6: >-
     までスクロールダウンしてください。p5.jsのデスクトップ版で作業したい場合は、
-  get-started7: ダウンロードの手順までスクロールしてください。
+    次の項目までスクロールして下さい
+  get-started7: (p5.jsライブラリのダウンロード)
   get-started-button: 'コピー'
   settingUp-title: 自分のコンピュータにエディタを使ってp5.jsをセットアップする
   download-title: p5.jsライブラリのダウンロード
@@ -113,7 +114,7 @@ get started:
     これらのバージョンの履歴は
   download6: 'から見る事ができます。CDNを使う場合、リンクを以下のように変更できます:'
   download7: 'HTMLのサンプルは次の様になります:'
-  environment-title: Environment
+  environment-title: 開発環境
   environment1: '自分のコンピュータでp5.jsを実行するには、コードエディタが必要です。 あなたの好きな '
   environmentlink: 'http://en.wikipedia.org/wiki/Source_code_editor'
   environment2: ' コードエディタ '
@@ -125,22 +126,19 @@ get started:
     次の様なエディタの使用もお勧めします。
   environment7: ' や '
   environment8: >-
-    Open Sublime. Go to the File menu and choose Open... and choose the folder
-    that your html and js files are located in. On the left sidebar, you should
-    find the folder name at the top, with a list of the files contained in the
-    folder directly below.
+    Sublimeを開きます。FileメニューからOpen...を選び、htmlとjsのファイルがあるフォルダを選びます。
+    左側のサイドバーには、一番上にフォルダ名、その下にフォルダに含まれるファイルのリストが表示されているはずです。
   environment9: >-
-    Click on your sketch.js file and it will open on the right where you can
-    edit it.
+    sketch.jsファイルをクリックすると、右側に表示され編集することができます。
   environment10: p5 starter code opened up in sublime editor.
   environment11: >-
-    Open the index.html file in your browser by double clicking on it in your
-    file manager or type:
+    ファイルマネージャーからindex.htmlファイルをダブルクリックしてブラウザで開くか、
+    ブラウザのアドレスバーに次のように入力してください:
   environment12: 'file:///the/file/path/to/your/html'
-  environment14: ' (or '
-  environment15: 'http://localhost:{your-port-num}/empty-example'
-  environment16: ' if you are using a local server)'
-  environment13: ' in the address bar to view your sketch.'
+  environment14: ' (ローカルサーバを使用している場合は'
+  environment15: 'http://localhost:{ポート番号}/empty-example'
+  environment16: ' と入力してください。)'
+  environment13: ' これにより、ブラウザでindex.htmlが開かれスケッチを表示する事ができます。'
   your-first-sketch-title: はじめてのスケッチ
   your-first-sketch-intro1: ''
   your-first-sketch-intro2: 'https://editor.p5js.org/'
@@ -161,14 +159,14 @@ get started:
     正しく入力されていれば、表示ウィンドウにこのように表示されます:
   your-first-sketch9: canvas has a circle of width and height 50 at position 80 x and 80 y
   your-first-sketch10: >-
-    何も表示されない場合は、エディタがあなたの入力した内容を理解するのに苦労している可能性があります。
-    数字は括弧の中に入れ、その間にカンマを入れ、行末はセミコロン、ellipseは正しいスペルである必要があります。
+    何も表示されない場合は、エディタが入力した内容を処理するのに時間がかかっている可能性があります。
+    数字は括弧の中に入れ、その間にカンマを入れ、行末はセミコロン、ellipseは正しいスペルであるか確認しましょう。
   your-first-sketch11: >-
     プログラミングを始めるにあたって最も難しいことの1つは、構文について非常に細かく指定しなければならないことです。
     ブラウザは常にあなたの言いたいことを理解できるほど賢くはありませんし、
     句読点の配置についてもかなりうるさくなります。少し練習すれば、慣れるでしょう。
     エディターの左下には、コンソールセクションがあります。
-    ここでは、エディタが遭遇したエラーの詳細を含むメッセージを見ることができます。
+    ここでは、エディタが発見したエラーの詳細を含むメッセージを見ることができます。
   your-first-sketch12: >-
     次に、ちょっと刺激的なスケッチに飛びます。前回の例を修正して、次のように試してみましょう:
   your-first-sketch13: >-
@@ -179,31 +177,30 @@ get started:
   first-sketch-heading1: Code snippet with ellipse
   first-sketch-heading2: Note for screenreader users
   first-sketch-heading3: Code snippet with interaction
-  what-next-title: 次はどうする？
-  learn1: '詳しくは'
-  learn2: learn page
+  what-next-title: 次は何をする？
+  learn1: '詳しい機能について'
+  learn2: 学習
   learn3: 'と'
-  learn4: examples page
-  learn5: 'で確認してください'
+  learn4: サンプル
+  learn5: 'を見てみる'
   learn6: ''
   learn7: The Coding Train
   learn8: 'と'
   learn9: Kadenze
-  learn10: 'のビデオチュートリアルを見る'
-  reference1: '完全なドキュメントについては、'
+  learn10: 'のビデオチュートリアルを試す'
+  reference1: '完全なドキュメントについて'
   reference2: 'リファレンス'
-  reference3: 'をご覧ください'
-  learn11: 'p5をスクリーンリーダーで使用したい場合は、'
-  learn12: p5 with a screenreader tutorialを参照してください
+  reference3: 'を確認する'
+  learn11: 'p5をスクリーンリーダーで使用したい場合は次を参考にする、'
+  learn12: p5 with a screenreader tutorial
   processing-transition1: '過去にProcessingを使用していた方は、'
   processing-transition2: 'https://github.com/processing/p5.js/wiki/Processing-transition'
   processing-transition3: Processing移行チュートリアル
   processing-transition4: 'を読んで、Processingからp5.jsへの変換方法と、両者の主な違いについて学んでください'
   book1: >-
-    Parts of this tutorial were adapted from the book, Getting Started with
-    p5.js, by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly / Make 2015.
-    Copyright © 2015. All rights reserved. Last modified at the p5.js 2019
-    Contributors Conference.
+    このチュートリアルの一部は、Lauren McCarthy、Casey Reas、およびBen Fryによる書籍
+    「Getting Started with p5.js ©2015」から抜粋しています。
+    著作権は2015年に所有されています。全著作権所有。最終更新は、p5.jsコントリビュータカンファレンス2019で行われました。
 download:
   Download: ダウンロード
   download-intro: >-
