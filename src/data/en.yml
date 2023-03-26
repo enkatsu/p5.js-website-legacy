@@ -315,27 +315,26 @@ learn:
     これらのチュートリアルでは、特定のトピックについて、より深く、またはステップバイステップで概要を説明します。
   learn2: examples page
   learn3: では、p5.jsの様々なトピックの短いデモをご覧いただけます。
-  introduction-to-p5js-title: Introduction to p5.js
+  introduction-to-p5js-title: p5.jsへの入門
   hello-p5js-title: Hello p5.js
   hello-p5js: >-
     This short video will introduce you to the library and what you can do with
     it.
-  getting-started-title: Getting Started
+  getting-started-title: 入門
   getting-started: >-
-    p5.jsへようこそ! <br> This introduction covers the basics of setting up a
-    p5.js project.
-  p5js-overview-title: p5.js overview
-  p5js-overview: An overview of the main features of p5.js.
-  p5js-processing-title: p5.js and Processing
+    p5.jsへようこそ！ <br> 
+    ここではp5.jsの基礎的なセットアップ手順を説明します。
+  p5js-overview-title: p5.jsについて
+  p5js-overview: p5.jsの主な機能について簡単に説明します。
+  p5js-processing-title: p5.jsとProcessing
   p5js-processing: >-
-    The main differences between the two, and how to convert from one to the
-    other.
-  p5-screen-reader-title: p5 with a screen reader
-  p5-screen-reader: Setting up p5 so that it can be used easily with a screen reader.
-  using-local-server-title: Using a local server
-  using-local-server: 'How to set up a local server on Mac OSX, Windows, or Linux.'
+    p5.jsとProcessingの主な違いと、書き換え方を説明します。
+  p5-screen-reader-title: スクリーンリーダとp5
+  p5-screen-reader: スクリーンリーダでp5を簡単に使用できるように設定します。
+  using-local-server-title: ローカルサーバーを使用する
+  using-local-server: Mac OSX、Windows、またはLinuxでローカルサーバーを立ち上げます。
   p5js-wiki-title: p5.js wiki
-  p5js-wiki: Additonal documentation and tutorials contributed by the community
+  p5js-wiki: コミュニティによって寄稿された追加のドキュメントやチュートリアルです。
   connecting-p5js-title: Connecting p5.js
   creating-libraries-title: Creating libraries
   creating-libraries: Creating p5.js addon libraries.
