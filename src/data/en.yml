@@ -1677,12 +1677,11 @@ books:
   book-1-title: Getting Started with p5.js
   book-1-authors: 'Lauren McCarthy, Casey Reas, and Ben Fry. Illustrations by Taeyoon Choi.'
   book-1-publisher: '2015年10月発行、 Maker Media。'
-  book-1-pages: '246 pages. '
-  book-1-type: Paperback.
+  book-1-pages: '246 ページ。 '
+  book-1-type: 紙表紙本。
   book-1-description: >-
-    Written by the lead p5.js developer and the founders of Processing, this
-    book provides an introduction to the creative possibilities of today's Web,
-    using JavaScript and HTML.
+    p5.jsの開発者とProcessingの創設者によって書かれました。本書は、今日のウェブの創造的な可能性を紹介するものです。
+    JavaScriptとHTMLを使用しています。
   book-1-order-a: Order Print/Ebook from O'Reilly
   book-1-order-b: Order from Amazon
   book-2-title: Introduction to p5.js (Spanish Edition)
@@ -1690,7 +1689,7 @@ books:
     Lauren McCarthy, Casey Reas, and Ben Fry. Translated by Aarón
     Montoya-Moraga. Ilustraciones de Taeyoon Choi.
   book-2-publisher: 'Published 2018, Processing Foundation, Inc. '
-  book-2-pages: '246 pages. '
+  book-2-pages: '246 ページ. '
   book-2-type: Soft cover.
   book-2-description: >-
     Written by the lead p5.js developer and the founders of Processing, this
