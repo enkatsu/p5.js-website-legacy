@@ -348,10 +348,10 @@ learn:
   getting-started-in-webgl-other-tutorials-tut3: Styling and Appearance
   getting-started-in-webgl-other-tutorials-tut4: Introduction to Shaders
   getting-started-in-webgl-other-tutorials-you-are-here: (you are here)
-  getting-started-in-webgl-title: Getting Started in WebGL
+  getting-started-in-webgl-title: WebGLの始め方
   getting-started-in-webgl-glossary-title: Glossary
-  getting-started-in-webgl-coords-and-transform-title: Coordinates and Transformations
-  getting-started-in-webgl-coords-and-transform: Basics of 3D setup, coordinates, and transformations
+  getting-started-in-webgl-coords-and-transform-title: 座標と変換
+  getting-started-in-webgl-coords-and-transform: 3Dのセットアップ、座標、変換の基礎です。
   getting-started-in-webgl-coords-and-transform-p1x1: >- 
     p5.js is a powerful tool for creating 2D graphics but it's also capable of 3D graphics.
     This tutorial will introduce new concepts for creating 3D sketches with p5.js.
@@ -869,10 +869,10 @@ learn:
   color: デジタルカラーの紹介をします。
   coordinate-system-and-shapes-title: 座標系と図形
   coordinate-system-and-shapes: 簡単な図表を描き、座標系を使う
-  interactivity-title: インタラクティブティ
+  interactivity-title: インタラクティビティ
   interactivity: マウスとキーボードによるインタラクションの紹介をします。
-  program-flow-title: Program Flow
-  program-flow: Introduction to controlling program flow in p5.js.
+  program-flow-title: プログラムフロー
+  program-flow: p5.jsにおけるプログラムフローの制御の紹介をします。
   curves-title: 曲線
   curves: >-
     p5.jsの3種類の曲線（円弧、スプライン曲線、ベジエ曲線）について紹介します。
