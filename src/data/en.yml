@@ -337,9 +337,9 @@ learn:
   creating-libraries: Creating p5.js addon libraries.
   nodejs-and-socketio-title: node.jsとsocket.io
   nodejs-and-socketio: node.jsサーバーをp5.jsと組み合わせて、socket.ioを使った通信を行います。
-  programming-topics-title: Programming topics
-  beyond-the-canvas-title: Beyond the canvas
-  beyond-the-canvas: Creating and manipulating elements on the page beyond the canvas.
+  programming-topics-title: プログラミングのトピックス
+  beyond-the-canvas-title: キャンバスを超えて
+  beyond-the-canvas: キャンバス以外のHTML要素の作成や操作をします。
   getting-started-in-webgl-other-tutorials-title: Other Tutorials
   getting-started-in-webgl-other-tutorials-p: >-
     This tutorial is part of a series about the basics of using WebGL in p5.js. Check out each of these other tutorials below.
@@ -348,10 +348,10 @@ learn:
   getting-started-in-webgl-other-tutorials-tut3: Styling and Appearance
   getting-started-in-webgl-other-tutorials-tut4: Introduction to Shaders
   getting-started-in-webgl-other-tutorials-you-are-here: (you are here)
-  getting-started-in-webgl-title: Getting Started in WebGL
+  getting-started-in-webgl-title: WebGLの始め方
   getting-started-in-webgl-glossary-title: Glossary
-  getting-started-in-webgl-coords-and-transform-title: Coordinates and Transformations
-  getting-started-in-webgl-coords-and-transform: Basics of 3D setup, coordinates, and transformations
+  getting-started-in-webgl-coords-and-transform-title: 座標と変換
+  getting-started-in-webgl-coords-and-transform: 3Dの初期設定や座標変換の基礎を紹介します。
   getting-started-in-webgl-coords-and-transform-p1x1: >- 
     p5.js is a powerful tool for creating 2D graphics but it's also capable of 3D graphics.
     This tutorial will introduce new concepts for creating 3D sketches with p5.js.
@@ -865,18 +865,17 @@ learn:
   getting-started-in-webgl-shaders-glossary-term12-definition: >-
     The part of a shader program that is responsible for the color and appearance of each pixel output by the
     shader.
-  color-title: Color
-  color: An introduction to digital color.
-  coordinate-system-and-shapes-title: Coordinate System and Shapes
-  coordinate-system-and-shapes: Drawing simple shapes and using the coordinate system.
-  interactivity-title: Interactivity
-  interactivity: Introduction to interactivity with the mouse and keyboard.
-  program-flow-title: Program Flow
-  program-flow: Introduction to controlling program flow in p5.js.
-  curves-title: Curves
+  color-title: 色
+  color: デジタルでの色の取り扱いを紹介します。
+  coordinate-system-and-shapes-title: 座標系と図形
+  coordinate-system-and-shapes: 簡単な図形を描き、座標系の取り扱いを紹介します。
+  interactivity-title: インタラクティビティ
+  interactivity: マウスとキーボードによるインタラクションの紹介をします。
+  program-flow-title: プログラムフロー
+  program-flow: p5.jsでのプログラムフローの制御方法を紹介します。
+  curves-title: 曲線
   curves: >-
-    An introduction to the three types of curves in p5.js: arcs, spline curves,
-    and Bézier curves.
+    p5.jsの3種類の曲線（円弧、スプライン曲線、ベジエ曲線）について紹介します。
   becoming-a-better-programmer-title: Becoming a better programmer
   debugging-title: Debugging
   debugging: Field guide to debugging for everyone.
