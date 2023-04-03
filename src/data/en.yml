@@ -1675,26 +1675,26 @@ books:
   books-title: 書籍
   book-1-title: Getting Started with p5.js
   book-1-authors: 'Lauren McCarthy(著), Casey Reas(著), Ben Fry(著), Taeyoon Choi(絵)'
-  book-1-publisher: '2015年10月発行、 Maker Media。'
+  book-1-publisher: '2015年10月発行、Maker Media。'
   book-1-pages: '246 ページ。 '
   book-1-type: ペーパーバック。
   book-1-description: >-
     p5.jsの開発者とProcessingの創設者によって書かれました。本書は、今日のウェブの創造的な可能性を紹介するものです。
     JavaScriptとHTMLを使用しています。
-  book-1-order-a: 単行本・電子書籍をO'Reillyで購入
+  book-1-order-a: 紙書籍・電子書籍をO'Reillyで購入
   book-1-order-b: Amazonで購入
-  book-2-title: p5.js入門 (スペイン語版)
+  book-2-title: Introduction to p5.js (スペイン語版)
   book-2-authors: >-
     Lauren McCarthy(著), Casey Reas(著), and Ben Fry(著), Aarón
     Montoya-Moraga(訳), Taeyoon Choi(絵)
-  book-2-publisher: '2018年発行、 Processing Foundation, Inc.。 '
-  book-2-pages: '246 ページ。 '
+  book-2-publisher: '2018年発行、Processing Foundation, Inc.。 '
+  book-2-pages: '246 ページ。'
   book-2-type: ソフトカバー。
   book-2-description: >-
     p5.jsの開発者とProcessingの創設者によって書かれました。本書は、今日のウェブの創造的な可能性を紹介するものです。
     JavaScriptとHTMLを使用しています。
   book-2-order-a: PDFをProcessing Foundation Pressで購入
-  book-2-order-b: 単行本をAmazonで購入
+  book-2-order-b: 紙書籍をAmazonで購入
   book-3-title: Generative Design
   book-3-authors: 'Benedikt Gross(著), Hartmut Bohnacker(著), Julia Laub(著), Claudius Lazzeroni(著)'
   book-3-publisher: '2018年10月発行、 Princeton Architectural Press:復刻版。'
@@ -1710,7 +1710,7 @@ books:
   book-4-title: Generative Gestaltung (ドイツ語版)
   book-4-authors: 'Benedikt Gross(著), Hartmut Bohnacker(著), Julia Laub(著), Claudius Lazzeroni(著)'
   book-4-publisher: '2018年3月1日発行、Schmidt Hermann Verlag。'
-  book-4-pages: '256ページ'
+  book-4-pages: '256ページ。'
   book-4-type: ハードカバー。
   book-4-description: >-
     p5.jsでのJavaScriptなどの簡単な言語を使用することで、アーティストや作り手は、
@@ -1719,26 +1719,25 @@ books:
     あらゆるものを作成することができます。
   book-4-order-a: Verlag Hermann Schmidtで購入
   book-4-order-b: Amazonで購入
-  book-5-title: p5.jsでJavaScriptを学ぶ
+  book-5-title: Learn JavaScript with p5.js
   book-5-authors: Engin Arslan(著)
   book-5-publisher: '2018年発行、Apress。'
   book-5-pages: '217ページ。'
   book-5-type: ペーパーバック。
   book-5-description: >-
-    p5.jsで人気のあるJavaScriptを使用して、
-    魅力的で視覚的な方法でゼロからコーディングする方法を学びます。この本で学んだスキルは、さまざまな業界に適用でき、Webアプリケーション、
-    プログラマブルロボット、またはジェネラティブアートの作成に使用できます。
+    p5.jsを使った魅力的で視覚的な方法で、人気のあるプログラミング言語JavaScriptを学びます。
+    この本で学んだスキルは、Webアプリケーションやプログラマブルロボット、ジェネラティブアートの作成などのさまざまな分野に適用できます。
   book-5-order-a: Apressで購入
   book-5-order-b: Amazonで購入
-  book-6-title: "美的プログラミング: ソフトウェアのハンドブック"
-  book-6-authors: 'Winnie Soon(著), Geoff Cox(著) '
-  book-6-publisher: '2020年発行、 Open Humanities Press。 '
+  book-6-title: "Aesthetic Programming: A Handbook of Software Studies"
+  book-6-authors: 'Winnie Soon(著), Geoff Cox(著)'
+  book-6-publisher: '2020年発行、Open Humanities Press。'
   book-6-pages: '298ページ。'
   book-6-type: ハードカバー。
   book-6-description: >-
-    p5.jsを使用した審美的プログラミングの反復練習方法を紹介します。
-    そして,既存の技術的対象やパラダイムを理解し疑問を投げかける方法としてプログラミング学習に取り組み、
-    より広いエコ・ソシオ・テクノロジー・システムを再プログラミングする可能性を探求できます。
+    本書は、p5.jsを使用した美的なプログラミングの反復練習方法を紹介します。
+    そして、既存の技術的対象やパラダイムを理解し疑問を投げかける方法としてプログラミング学習に取り組みます。
+    これにより、より広く社会技術システムを再プログラミングする可能性を探求します。
   book-6-order-a: PDFをダウンロード(無料)
   book-6-order-b: Barnes & Nobleで購入
 examples:
