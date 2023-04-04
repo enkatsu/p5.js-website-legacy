@@ -707,7 +707,7 @@ learn:
   getting-started-in-webgl-appearance-glossary-term7-title: Clipping
   getting-started-in-webgl-appearance-glossary-term7-definition: Selectively showing some geometry and not others, such as when geometry falls outside of the camera frustum.
   getting-started-in-webgl-shaders-title: シェーダー入門
-  getting-started-in-webgl-shaders: WebGLを使ってp5js内でシェーダーを作成する方法の基礎を説明します。
+  getting-started-in-webgl-shaders: WebGLを使ってp5js内でシェーダーを作成する方法基本を説明します。
   getting-started-in-webgl-shaders-p0x1: >-
     Shaders are special programs that run on the graphics processing unit, or GPU, that can do some incredible
     things. They take advantage of the
