@@ -515,8 +515,8 @@ learn:
   getting-started-in-webgl-coords-and-transform-glossary-term6-definition: A point in 3D space, with an x, y, z position.
   getting-started-in-webgl-coords-and-transform-glossary-term7-title: Face
   getting-started-in-webgl-coords-and-transform-glossary-term7-definition: A collection of three points that create a solid surface.
-  getting-started-in-webgl-custom-geometry-title: Creating Custom Geometry in WebGL
-  getting-started-in-webgl-custom-geometry: Creating custom geometry in WebGL
+  getting-started-in-webgl-custom-geometry-title: WebGLでカスタムジオメトリを作成
+  getting-started-in-webgl-custom-geometry: WebGLでカスタムジオメトリを作成します。
   getting-started-in-webgl-custom-geometry-p1x1: >-
     p5.js has a number of basic shapes, like <a class="code">box()</a> or <a class="code">sphere()</a>, but p5.js
     is also capable of rendering complex custom geometry, both from 3D model files or from code. This tutorial will walk through how to import 3D models into p5.js, as well as how
@@ -593,8 +593,8 @@ learn:
   getting-started-in-webgl-custom-geometry-glossary-term6-definition: The direction that is perpendicular to a face, which is often needed when calculating lighting or using materials. 
   getting-started-in-webgl-custom-geometry-glossary-term7-title: Normalization
   getting-started-in-webgl-custom-geometry-glossary-term7-definition: Changing something so that it fits within a standard range.
-  getting-started-in-webgl-appearance-title: Styling and Appearance
-  getting-started-in-webgl-appearance: The basics of materials and lighting in WebGL
+  getting-started-in-webgl-appearance-title: スタイリングと外観
+  getting-started-in-webgl-appearance: WebGLのマテリアルやライティングの基本を紹介します。
   getting-started-in-webgl-appearance-p0x1: >-
     Creating in 3D is about more than just geometry. Cameras, lights, and materials are an
     important part of creating a visually interesting 3D scene. p5.js has a number of tools
@@ -706,8 +706,8 @@ learn:
     the far plane represents the maximum distance.
   getting-started-in-webgl-appearance-glossary-term7-title: Clipping
   getting-started-in-webgl-appearance-glossary-term7-definition: Selectively showing some geometry and not others, such as when geometry falls outside of the camera frustum.
-  getting-started-in-webgl-shaders-title: Introduction to Shaders
-  getting-started-in-webgl-shaders: The basics of creating shaders within p5js using WebGL
+  getting-started-in-webgl-shaders-title: シェーダー入門
+  getting-started-in-webgl-shaders: WebGLを使ってp5js内でシェーダーを作成する方法の基本を説明します。
   getting-started-in-webgl-shaders-p0x1: >-
     Shaders are special programs that run on the graphics processing unit, or GPU, that can do some incredible
     things. They take advantage of the
@@ -876,13 +876,12 @@ learn:
   curves-title: 曲線
   curves: >-
     p5.jsの3種類の曲線（円弧、スプライン曲線、ベジエ曲線）について紹介します。
-  becoming-a-better-programmer-title: Becoming a better programmer
-  debugging-title: Debugging
-  debugging: Field guide to debugging for everyone.
-  optimizing-title: Optimizing p5.js code for performance
+  becoming-a-better-programmer-title: より良いプログラマーになるために
+  debugging-title: デバッグ
+  debugging: 誰にでもわかるデバッグのフィールドガイドです。
+  optimizing-title: パフォーマンス向上のためのp5.jsコードの最適化
   optimizing: >-
-    A tutorial of tips and tricks for optimizing your code to make it run faster
-    and smoother.
+    コードをより速く、よりスムーズに動作させるために最適化をします。そのためのヒントやトリックを紹介するチュートリアルです。
   test-driven-development-title: Unit testing and test driven development
   test-driven-development: >-
     Save yourself from agony on install day. What is unit testing and how to use
