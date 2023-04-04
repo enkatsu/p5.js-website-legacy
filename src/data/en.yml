@@ -333,8 +333,8 @@ learn:
   p5js-wiki-title: p5.js wiki
   p5js-wiki: コミュニティによって寄稿された追加のドキュメントやチュートリアルです。
   connecting-p5js-title: p5.jsを接続する
-  creating-libraries-title: Creating libraries
-  creating-libraries: Creating p5.js addon libraries.
+  creating-libraries-title: ライブラリの作成
+  creating-libraries: p5.jsのアドオンライブラリの作成をします。
   nodejs-and-socketio-title: node.jsとsocket.io
   nodejs-and-socketio: node.jsサーバーをp5.jsと組み合わせて、socket.ioを使った通信を行います。
   programming-topics-title: プログラミングのトピックス
@@ -882,19 +882,17 @@ learn:
   optimizing-title: パフォーマンス向上のためのp5.jsコードの最適化
   optimizing: >-
     コードをより速く、よりスムーズに動作させるために最適化をします。そのためのヒントやトリックを紹介するチュートリアルです。
-  test-driven-development-title: Unit testing and test driven development
+  test-driven-development-title: 単体テストとテスト駆動開発
   test-driven-development: >-
-    Save yourself from agony on install day. What is unit testing and how to use
-    it? By Andy Timmons.
-  contributing-to-the-community-title: Contributing to the community
-  development-title: Development
-  development: Getting started and overview for contributing to development.
-  looking-inside-title: Looking inside p5
+    単体テストとは何か、そしてどのように使うかをアンディ・ティモンズによって説明されています。
+  contributing-to-the-community-title: コミュニティへの貢献
+  development-title: 開発
+  development: 開発に貢献するための入門編と概要について説明します。
+  looking-inside-title: p5の内部を見る
   looking-inside: >-
-    A friendly intro to the file structure and tools for p5.js development, by
-    Luisa Pereira.
-  writing-tutorial-title: Writing a tutorial
-  writing-tutorial: A guide to writing a p5.js programming tutorial.
+    p5.js開発のファイル構造とツールが、ルイサ・ペレイラによってわかりやすく紹介されています。
+  writing-tutorial-title: チュートリアルの作成
+  writing-tutorial: p5.jsプログラミングチュートリアルの作成ガイドです。
   writing-a-tutorial-title: Guide to contributing p5.js tutorials
   writing-a-tutorial-author: This tutorial was written by Tega Brain.
   writing-a-tutorial-1: >-
