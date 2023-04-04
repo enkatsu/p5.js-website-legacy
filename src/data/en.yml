@@ -884,10 +884,11 @@ learn:
     コードをより速く、よりスムーズに動作させるために最適化をします。そのためのヒントやトリックを紹介するチュートリアルです。
   test-driven-development-title: 単体テストとテスト駆動開発
   test-driven-development: >-
+    単体テストを導入すると、テストの煩わしさから解放されます。
     単体テストとは何か、そしてどのように使うかをアンディ・ティモンズによって説明されています。
   contributing-to-the-community-title: コミュニティへの貢献
   development-title: 開発
-  development: 開発に貢献するための入門編と概要について説明します。
+  development: 開発に貢献するための導入と概要について説明します。
   looking-inside-title: p5の内部を見る
   looking-inside: >-
     p5.js開発のファイル構造とツールが、ルイサ・ペレイラによってわかりやすく紹介されています。
