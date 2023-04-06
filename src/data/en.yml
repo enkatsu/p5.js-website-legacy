@@ -1194,77 +1194,66 @@ learn:
   teach-desc: 'Teach a p5 workshop or class, or create teaching materials!'
 libraries:
   Libraries: ライブラリ
-  core-libraries: Core Libraries
-  community-libraries: Community Libraries
-  libraries-created-by: 'Created by:'
+  core-libraries: コアライブラリ
+  community-libraries: コミュニティライブラリ
+  libraries-created-by: '制作者:'
   p5.sound: >-
-    p5.sound extends p5 with Web Audio functionality including audio input,
-    playback, analysis and synthesis.
+    p5.soundは、オーディオ入力、再生、解析、および合成を含むWebオーディオ機能を備えたp5を拡張します。
   asciiart: >-
-    p5.asciiart is a simple and easy to use image - to - ASCII art converter for
-    p5js.
+    p5.asciiartは、p5js用のシンプルで使いやすい画像からASCIIアートに変換するツールです。
   p5.ble: >-
-    A Javascript library that enables communication between BLE devices and p5
-    sketches.
+    BLEデバイスとp5スケッチ間の通信を可能にするJavaScriptライブラリです。
   p5.bots: >-
-    With p5.bots you can interact with your Arduino (or other microprocessor)
-    from within the browser. Use sensor data to drive a sketch; use a sketch to
-    drive LEDs, motors, and more!
-  p5.bezier: A library helps draw high-degree Bézier curves with unlimited points.
-  p5.clickable: 'Event driven, easy-to-use button library for p5.js.'
-  p5.cmyk.js: CMYK ColorSpace
+    p5.botsを使用すると、ブラウザ内からArduino（または他のマイクロプロセッサ）とやりとりすることができます。
+    センサーデータを使用してスケッチを制御したり、スケッチを使用してLED、モーターなどを制御したりすることができます！
+  p5.bezier: 無制限のポイントで高度なベジエ曲線を描画するのを支援するライブラリです。
+  p5.clickable: 'p5.js用のイベント駆動型で使いやすいボタンライブラリです。'
+  p5.cmyk.js: CMYK 色空間
   p5.collide2D: >-
-    p5.collide2D provides tools for calculating collision detection for 2D
-    geometry with p5.js.
+    p5.collide2Dは、p5.jsを使って2Dジオメトリの衝突検出を計算するためのツールを提供します。
   CO2Budget.js: >-
-    This library opens up the idea of the CO2-Countdown to creative communities of 
-    coders, designers and artists associated with p5*js and JavaScript.
-  p5.createloop: Create animation loops with noise and GIF exports in one line of code.
+    このライブラリは、p5*jsおよびJavaScriptに関連するコーダー、デザイナー、アーティストの
+    クリエイティブなコミュニティにCO2-Countdownのアイデアを提供します。
+  p5.createloop: ノイズを使ったアニメーションループを1行のコードで作成し、GIFエクスポートを行います。
   p5.dimensions: >-
-    p5.dimensions extends p5.js' vector functions to work in any number of
-    dimensions.
+    pp5.dimensionsは、p5.jsのベクトル関数を任意の次元で動作させるために計算をサポートするライブラリです。
   p5.EasyCam: >-
-    Simple 3D camera control with inertial pan, zoom, and rotate. Major
-    contributions by Thomas Diewald.
+    慣性付きのパン、ズーム、回転によるシンプルな3Dカメラ制御。Thomas Diewaldが大きく貢献してくれました。
   p5.experience: >-
-    Extensive library for p5.js that adds additional event-listening
-    functionality for creating canvas-based web applications.
+    p5.jsのための広範囲なライブラリです。キャンバスベースのWebアプリケーションを
+    作成するための追加のイベントリスニング機能が追加されています。
   p5.func: >-
-    p5.func is a p5 extension that provides new objects and utilities for
-    function generation in the time, frequency, and spatial domains.
+    p5.funcは、時間、周波数、および空間領域での関数生成のための
+    新しいオブジェクトやユーティリティを提供する、p5の拡張機能です。
   p5.geolocation: >-
-    p5.geolocation provides techniques for acquiring, watching, calculating, and
-    geofencing user locations for p5.js.
-  p5.glitch: p5.glitch extends p5.js for glitching images and binary files.
-  p5.gibber: p5.gibber provides rapid music sequencing and audio synthesis capabilities.
+    p5.geolocationは、p5.jsでユーザーの位置情報の取得、監視、計算、
+    およびジオフェンシングを行うための技術を提供します。
+  p5.glitch: p5.glitchは、p5.jsを拡張し、画像やバイナリファイルをグリッチする機能を提供します。
+  p5.gibber: p5.gibberは、高速な音楽シーケンシングとオーディオ合成機能を提供します。
   grafica.js: >-
-    grafica.js lets you add simple but highly configurable 2D plots to your
-    p5.js sketches.
-  p5.gui: p5.gui generates a graphical user interface for your p5.js sketches.
+    grafica.jsは、簡単で高度に設定可能な2Dプロットをp5.jsスケッチに追加できるようにします。
+  p5.gui: p5.guiは、p5.jsスケッチに対してグラフィカルユーザーインターフェースを生成します。
   p5.j5: >-
-    The full Johnny-Five.io Nodebots/robotics library for Arduino and other 
-    microcontrollers made to work directly in browser with WebSerial or WebUSB.
+    Johnny-Five.ioは、Arduinoやその他のマイクロコントローラー用の完全な Nodebots/robotics ライブラリであり、
+    WebSerialまたはWebUSBを使用してブラウザで直接動作するように作られています。
   p5.localmessage: >-
-    p5.localmessage provides a simple interface to send messages locally from
-    one sketch to another for easy multi-window sketching!
-  marching: 'Raster to vector conversion, isosurfaces.'
+    p5.localmessageは、簡単なインターフェースを提供し、異なるスケッチ間でローカルにメッセージを送信するための機能を提供します。
+    これにより、複数のウィンドウでのスケッチ作業が容易になります！
+  marching: 'ラスターからベクターへの変換、等値面の作成。'
   mappa: >-
-    Mappa provides a set of tools for working with static maps, tile maps, and
-    geo-data. Useful when building geolocation-based visual representations.
+    Mappaは、静的マップ、タイルマップ、およびジオデータを扱うためのツールセットを提供します。
+    ジオロケーションベースの視覚的表現を構築する際に役立ちます。
   ml5.js: >-
-    ml5.js builds on Tensorflow.js and provides friendly access to machine
-    learning algorithms and models in the browser.
-  numero: A friendly and intuitive math library for p5.js.
+    ml5.jsは、Tensorflow.jsをベースにしており、ブラウザで機械学習アルゴリズムやモデルに友好的にアクセスすることができます。
+  numero: 親しみやすく直感的な数学ライブラリです。p5.jsに対応しています。
   pdl.library: >-
-    A set of functions and classes to create interactive diagrams for teaching 
-    and learning physics.
+    このセットは、物理学の教育や学習に対してインタラクティブなダイアグラムを作成するための関数とクラスを提供します。
   p5play: >-
-    p5play is for creating interactive art and games with the Box2D physics engine.
-    It provides sprites, animations, improved input detection, and more!
+    p5playは、Box2D物理エンジンを使用してインタラクティブなアートやゲームを作成するためのもので、
+    スプライト、アニメーション、入力検出の改善などを提供します！
   p5.particle: >-
-    The Particle and Fountain objects can be used to create data-driven effects
-    that are defined through user structures or JSON input and user-draw
-    functions.
+    ParticleオブジェクトやFountainオブジェクトは、ユーザー構造体またはJSON入力とユーザー定義の描画関数を通じて定義された、
+    データ駆動型のエフェクトを作成するために使用することができます。
   p5.party: >-
     p5.party is a library for easily creating networked multiuser games, apps, 
     and sketches.
@@ -1395,12 +1384,11 @@ libraries:
     スケッチにライブラリを含めるには、p5.jsをリンクした後にHTMLファイルにリンクします。
     例えば、HTMLファイルは次のようになります。
   create-your-own-title: 自分のライブラリを作る
-  create-your-own1: p5.js welcomes libraries contributed by others! Check out the
-  create-your-own2: libraries tutorial
-  create-your-own3: for more specifics about how to create one.
+  create-your-own1: p5.jsは他の人が作成したライブラリを歓迎します! ライブラリの作成方法に関する詳細については
+  create-your-own2: ライブラリのチュートリアル
+  create-your-own3: を確認してください。
   create-your-own4: >-
-    If you have created a library and would like to have it included on this
-    page, submit this form!
+    もしあなたがライブラリを作成し、このページへの掲載を希望する場合は、こちらからフォームを提出してください！
 community:
   community-title: コミュニティ
   community-statement-title: p5.jsコミュニティ・ステートメント
