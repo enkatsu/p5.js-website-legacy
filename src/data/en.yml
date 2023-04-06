@@ -1387,7 +1387,7 @@ libraries:
   using-a-library4: >-
     スケッチにライブラリを含めるには、p5.jsをリンクした後にHTMLファイルにリンクします。
     例えば、HTMLファイルは次のようになります。
-  create-your-own-title: Create Your Own
+  create-your-own-title: 自分のライブラリを作る
   create-your-own1: p5.js welcomes libraries contributed by others! Check out the
   create-your-own2: libraries tutorial
   create-your-own3: for more specifics about how to create one.
