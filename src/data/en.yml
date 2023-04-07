@@ -1255,8 +1255,7 @@ libraries:
     ParticleオブジェクトやFountainオブジェクトは、ユーザー構造体またはJSON入力とユーザー定義の描画関数を通じて定義された、
     データ駆動型のエフェクトを作成するために使用することができます。
   p5.party: >-
-    p5.party is a library for easily creating networked multiuser games, apps, 
-    and sketches.
+    p5.partyは、簡単にネットワークを介して複数のユーザーで遊べるゲーム、アプリ、スケッチを作成するためのライブラリです。
   p5.Polar: >-
     p5.Polar provides mathematical abstractions making it easy to create
     create beautiful, kaleidoscopic, radial patterns.
