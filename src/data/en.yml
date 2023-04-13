@@ -1198,9 +1198,9 @@ libraries:
   community-libraries: コミュニティライブラリ
   libraries-created-by: '制作者:'
   p5.sound: >-
-    p5.soundは、オーディオ入力、再生、解析、および合成を含むWebオーディオ機能を備えたp5を拡張します。
+    p5.soundは、p5のオーディオ入力、再生、解析、および合成などのWebオーディオ機能を拡張します。
   asciiart: >-
-    p5.asciiartは、p5js用のシンプルで使いやすい画像からASCIIアートに変換するツールです。
+    p5.asciiartは、画像をASCIIアートに変換する、p5js用のシンプルで使いやすいツールです。
   p5.ble: >-
     BLEデバイスとp5スケッチ間の通信を可能にするJavaScriptライブラリです。
   p5.bots: >-
@@ -1214,14 +1214,14 @@ libraries:
   CO2Budget.js: >-
     このライブラリは、p5*jsおよびJavaScriptに関連するコーダー、デザイナー、アーティストの
     クリエイティブなコミュニティにCO2-Countdownのアイデアを提供します。
-  p5.createloop: ノイズを使ったアニメーションループを1行のコードで作成し、GIFエクスポートを行います。
+  p5.createloop: ノイズを使ったアニメーションループとGIFエクスポートを、1行のコードで実行できます。
   p5.dimensions: >-
     pp5.dimensionsは、p5.jsのベクトル関数を任意の次元で動作させるために計算をサポートするライブラリです。
   p5.EasyCam: >-
     慣性付きのパン、ズーム、回転によるシンプルな3Dカメラ制御。Thomas Diewaldが大きく貢献してくれました。
   p5.experience: >-
-    p5.jsのための広範囲なライブラリです。キャンバスベースのWebアプリケーションを
-    作成するための追加のイベントリスニング機能が追加されています。
+    p5.jsのための広範囲なライブラリです。
+    キャンバスベースのWebアプリケーションを作成するための、イベントリスニング機能を追加できます。
   p5.func: >-
     p5.funcは、時間、周波数、および空間領域での関数生成のための
     新しいオブジェクトやユーティリティを提供する、p5の拡張機能です。
@@ -1237,14 +1237,14 @@ libraries:
     Johnny-Five.ioは、Arduinoやその他のマイクロコントローラー用の完全な Nodebots/robotics ライブラリであり、
     WebSerialまたはWebUSBを使用してブラウザで直接動作するように作られています。
   p5.localmessage: >-
-    p5.localmessageは、簡単なインターフェースを提供し、異なるスケッチ間でローカルにメッセージを送信するための機能を提供します。
-    これにより、複数のウィンドウでのスケッチ作業が容易になります！
+    p5.localmessageは、ローカルの異なるスケッチ間でメッセージを送受信するための、簡単なインターフェースを提供します。
+    これにより、複数のウィンドウを使ったスケッチの連携が容易になります！
   marching: 'ラスターからベクターへの変換、等値面の作成。'
   mappa: >-
     Mappaは、静的マップ、タイルマップ、およびジオデータを扱うためのツールセットを提供します。
     ジオロケーションベースの視覚的表現を構築する際に役立ちます。
   ml5.js: >-
-    ml5.jsは、Tensorflow.jsをベースにしており、ブラウザで機械学習アルゴリズムやモデルに友好的にアクセスすることができます。
+    ml5.jsは、Tensorflow.jsをベースにしており、ブラウザで機械学習アルゴリズムやモデルに親しみやすくアクセスすることができます。
   numero: 親しみやすく直感的な数学ライブラリです。p5.jsに対応しています。
   pdl.library: >-
     このセットは、物理学の教育や学習に対してインタラクティブなダイアグラムを作成するための関数とクラスを提供します。
@@ -1257,122 +1257,99 @@ libraries:
   p5.party: >-
     p5.partyは、簡単にネットワークを介して複数のユーザーで遊べるゲーム、アプリ、スケッチを作成するためのライブラリです。
   p5.Polar: >-
-    p5.Polar provides mathematical abstractions making it easy to create
-    create beautiful, kaleidoscopic, radial patterns.
-  react-p5: This library lets you integrate p5 Sketches into your React App.
-  p5.recorder: Record sketch canvas and audio.
+    p5.Polarは、美しい万華鏡的な放射状のパターンを簡単に作成するための数学的抽象化を提供します。
+  react-p5: このライブラリを使用すると、p5スケッチをReactアプリに統合することができます。
+  p5.recorder: スケッチキャンバスと音声を記録します。
   p5.Riso: >-
-    p5.Riso is a library for generating files suitable for Risograph printing.
-    It helps turn your sketches into multi-color prints.
+    p5.Risoは、リソグラフ印刷に適したファイルを生成するためのライブラリです。
+    スケッチからマルチカラーの印刷物へ変換を補助します。
   rita.js: >-
-    RiTa.js provides a set of natural language processing objects for generative
-    literature.
-  Rotating knobs: Make knobs you can rotate with custom graphics and return value ranges.
+    RiTa.jsは、生成された文学作品のための自然言語処理オブジェクトのセットを提供します。
+  Rotating knobs: カスタムグラフィックスで回転可能なつまみを作成し、返される値の範囲を設定することができるライブラリです。
   p5.scenemanager: >-
-    p5.SceneManager helps you create sketches with multiple states / scenes.
-    Each scene is a like a sketch within the main sketch.
-  p5.screenPosition: Adds the screenX and screenY functionality from Processing to P5js.
+    p5.SceneManagerは、複数の states / scenes を持つスケッチを作成するのを支援します。
+    各シーンは、メインスケッチ内のスケッチのようなものです。
+  p5.screenPosition: ProcessingにおけるscreenXおよびscreenYの機能をP5.jsに追加します。
   p5.scribble: >-
-    Draw 2D primitives in a sketchy look. Created by Janneck Wullschleger, based
-    on a port of the original Processing library
+    スケッチ風の2Dプリミティブを描画します。
+    オリジナルのProcessingライブラリのポートをベースに、Janneck Wullschlegerが作成しました。
   p5.serialport: >-
-    p5.serialport enables serial communication between devices that support serial
-    (RS-232) and p5 sketches running in the browser.
+    p5.serialportは、シリアル通信（RS-232）をサポートするデバイスと、ブラウザで実行されるp5スケッチ間のシリアル通信を可能にします。
   Shape5: >-
-    Shape5 is a 2D primative library for elementary students who are learning to
-    code for the first time.
-  p5.shape.js: A library built to add more simple shapes to the p5.js framework.
-  P5.slides: p5.slides is a presentation platform written in p5.js.
+    Shape5は、初めてコーディングを学ぶ小学生向けの2Dプリミティブライブラリです。
+  p5.shape.js: p5.jsフレームワークにシンプルな形状を追加するためのライブラリです。
+  P5.slides: p5.slidesは、p5.jsで書かれたプレゼンテーションプ用のラットフォームです。
   p5snap: >-
-    p5snap is a command-line interface that creates and saves snapshots 
-    of a p5 sketch on an interval.
+    p5snapは、p5スケッチのスナップショットを一定の間隔で作成して保存するコマンドラインインターフェイスです。
   p5.speech: >-
-    p5.speech provides simple, clear access to the Web Speech and Speech
-    Recognition APIs, allowing for the easy creation of sketches that can talk
-    and listen.
-  p5.start2d.js: 'p5 extension for 2D static art using px, mm, cm or inches'
+    p5.speechは、Web SpeechとSpeech Recognition APIへの簡単で明確なアクセスを提供します。
+    これにより、話したり聞いたりできるスケッチを簡単に作成することができます。
+  p5.start2d.js: 「ピクセル、ミリメートル、センチメートル、インチを使用した2D静止画のためのp5拡張機能です」
   p5.tiledmap: >-
-    p5.tiledmap provides drawing and helper functions to include maps in your
-    sketches.
+    p5.tiledmapは、スケッチに地図を含めるための描画および補助機能を提供します。
   TiledPlay: >-
-    A small library to bridge the functionality of p5.js, p5.play.js and 
-    p5.tiled.js to easily create 2D platformer games using javascript.
-  p5.touchgui: A multi-touch and mouse GUI Library for p5.js.
+    p5.js、p5.play.js、およびp5.tiled.jsの機能をブリッジする小さなライブラリです。
+    JavaScriptを使用して簡単に2Dアドベンチャーゲームを作成するための機能を提供します。
+  p5.touchgui: p5.js向けのマルチタッチとマウスのGUIライブラリです。
   tramontana: >-
-    Tramontana is a platform for easily use many devices (iOS, Android,
-    tramontana Board, ...) to create interactive environments, interactive
-    spaces or just prototype experiences at scale and in space.
+    Tramontanaは、iOS、Android、Tramontanaボードなど、多数のデバイスの簡単に使用することができます。
+    インタラクティブな環境、インタラクティブなスペース、またはスケーラブルで空間的な体験をプロトタイプ化するためのプラットフォームです。
   TurtleGFX: >-
-    TurtleGFX allows to code with Turtle Graphics in JavaScript. 
-    Great for education and creative coding.
+    TurtleGFXはJavaScriptでTurtle Graphicsをコーディングすることができるようにするライブラリです。教育やクリエイティブなコーディングに最適です。
   p5.tween: >-
-    With p5.tween you can create easily animations as tween for your objects and 
-    shapes.
+    p5.tweenを使用すると、オブジェクトやシェイプのアニメーションする際のトゥイーンを簡単に作成できます。
   vida: >-
-    Vida is a simple library that adds camera (or video) based motion detection
-    and blob tracking functionality to p5js.
+    Vidaは、p5.jsにカメラ（またはビデオ）ベースのモーション検出およびブロブトラッキング機能を追加するシンプルなライブラリです。
   p5.voronoi: >-
-    p5.voronoi provides a set of tools to draw and utilize voronoi diagrams in
-    your p5.js sketches.
+    p5.voronoiは、p5.jsスケッチでvoronoi図を描画および利用するためのツールセットを提供するライブラリです。
   p5.wasm: >-
-    p5.wasm is an addon library written in Rust and compiled to WebAssembly that 
-    implements common functions found in p5.js.
-  p5.xr: A library for creating VR and AR sketches with p5.
-  p5.3D: 3D Text and Images in WebGL.
-  WEBMIDI.js: Easily send and receive MIDI messages from p5.
-  p5.buttons: A library that aims to de-complicate scripting buttons.
+    p5.wasmは、Rustで書かれ、WebAssemblyにコンパイルされたアドオンライブラリで、p5.jsで見つかる一般的な関数を実装しています。
+  p5.xr: p5.xrは、p5.jsを使用してVRおよびARスケッチを作成するためのライブラリです。
+  p5.3D: WebGLでの3Dテキストおよび画像を扱うためのライブラリです。
+  WEBMIDI.js: p5.midiは、p5からMIDIメッセージを簡単に送信および受信できるようにするライブラリです。
+  p5.buttons: スクリプトを簡素化することを目的としたライブラリです。
   p5.button: >-
-    Small one function library to design and render simple or styled buttons 
-    directly in p5.js canvas.
+    p5.clickableは、p5.jsキャンバス内でシンプルなスタイル付きのボタンの設計およびレンダリングをするための関数ライブラリです。
   p5.math.js: >-
-    The mathematical operations of JavaScript have been converted into simple 
-    human language so that they can understand really quickly.
-  p5LiveMedia: Real time audio, video, canvas, and data sharing.
+    素早く理解できるようにJavascriptでの数学的な操作を簡単な言葉に変換します。
+  p5LiveMedia: リアルタイムの音声、ビデオ、キャンバス、およびデータ共有を提供するライブラリです。
   P5.Create: >-
-    P5.Create is a library which provides save, animation, collision and tag 
-    functions designed for efficient game creation.
-  p5.quadrille.js: p5.js quadrille library.
-  p5.animS: p5.animS animates p5.js shapes by rendering their drawing processes.
-  I_AM_UI: A UserInterface library.
-  simple.js: Helper functions and defaults for young and new coders.
+    P5.Createは、効率的なゲーム作成を目的として設計された、保存、アニメーション、衝突、タグの機能を提供するライブラリです。
+  p5.quadrille.js: p5.js カドリールライブラリ.
+  p5.animS: p5.animSは、p5.jsの図形を描画処理することでアニメーションにします。
+  I_AM_UI: ユーザーインターフェースライブラリです.
+  simple.js: 初心者のプログラマー向けの補助関数とデフォルト設定。
   p5.timer: >-
-    This library performs asynchronous timing functions like countdowns, 
-    one-shot timers, % time elapsed and encapsulates the millis() function and 
-    other related calculations that often clog up your code. 
+    このライブラリは、カウントダウン、ワンショットタイマー、% 経過時間などの非同期タイミング関数を実行し、
+    millis() 関数やその他の関連する計算をカプセル化して、よくあるコードが混雑する問題を解決します。
   c2.js: >-
-    c2.js is a JavaScript library for creative coding based on computational 
-    geometry, physics simulation, evolutionary algorithm and other modules.
-  Concave Hull: Calculate a Concave Hull from a set of points in 2D space.
-  p5.joystick: Connect and play with physical joysticks
+    c2.jsは、計算幾何学、物理シミュレーション、進化アルゴリズムなどのモジュールに基づいたクリエイティブコーディング用のJavaScriptライブラリです。
+  Concave Hull: 2D空間内の点の集合から凹凸包を計算します。
+  p5.joystick: 物理的なジョイスティックを接続して遊ぶことができます。
   p5.webserial: >-
-    A library for interacting with Serial devices from within the browser, 
-    based on Web Serial API (available on Chrome and Edge).
-  p5.pattern: A pattern drawing library for p5.js.
-  p5.jacdac: Plug-and-play micro-controllers for p5js
-  p5.PatGrad: p5.PatGrad let's you add patterns and gradients to your sketches.
-  p5.projection: Easy projection mapping of sketches onto real world surfaces
+    ブラウザ内からシリアルデバイスとやり取りするためのライブラリです。Web Serial API（ChromeとEdgeで使用可能）に基づいています。
+  p5.pattern: p5.jsのパターン描画ライブラリ。
+  p5.jacdac: p5js向けのプラグアンドプレイのマイクロコントローラー。
+  p5.PatGrad: p5.PatGradは、スケッチにパターンとグラデーションを追加できるようにするライブラリです。
+  p5.projection: 簡単にスケッチを実世界の表面にプロジェクションマッピングすることができるライブラリです。
   p5.Framebuffer: >-
-    A fast offscreen canvas for WebGL, giving access to depth data for fog and 
-    blur effects.
+    WebGL用の高速オフスクリーンキャンバスで、フォグやぼかし効果に必要な深度データにアクセスできます。
   p5.capture: >-
-    p5.capture provides a simple GUI to easily record p5.js animations and output 
-    video files in various formats (webm, gif, mp4, png, jpg, and webp).
-  p5.input: Adds more key support for p5.js.
+    p5.captureは、簡単なGUIにより、簡単にp5.jsのアニメーションを録画します。webm、gif、mp4、png、jpg、およびwebpのさまざまな形式でビデオファイルを出力することができます。
+  p5.input: p5.jsのキーのサポートを拡張するライブラリです。
   p5.web-serial: >-
-    A p5.js library for using the Web Serial API to access devices like Arduino, 
-    no setup required.
-  p5.wasm.core: A web assembly core for p5.js.
-  p5.videorecorder: Record your canvas as a video file with audio.
+    p5.web-serialを使うことで、Web Serial APIを使用することでArduinoなどのデバイスのセットアップが不要になります。
+  p5.wasm.core: p5.jsのためのWeb Assemblyコアです。
+  p5.videorecorder: キャンバスを音声付きのビデオファイルとして録画することができるライブラリです。
   p5.mapper: >-
-    p5.mapper is a projection mapping library for p5.js. This library makes it 
-    easy to code and keystone interactive, algorithmic sketches.
+    p5.mapperは、p5.jsのプロジェクションマッピングライブラリです。
+    このライブラリを使うことで、インタラクティブなアルゴリズムスケッチを簡単にコーディングすることができます。
   p5.teach: >-
-    A beginner friendly math animation library for p5.js. Created with mentorship  
-    from Nick McIntyre and Jithin KS.
-  p5.fab: p5.fab controls digital fabrication machines from p5.js.
+    p5.js向けの初心者にも優しい数学アニメーションライブラリです。
+    Nick McIntyreとJithin KSのメンターシップで作成されました。
+  p5.fab: p5.fabは、p5.jsからデジタルファブリケーションマシンを制御するライブラリです。
   p5.utils: >-
-    A set of utilities and additional features for my creative coding class aiming 
-    to help students.
+    学生の助けになるように設計された創造的コーディングクラスのためのユーティリティと追加機能のセットです。
   using-a-library-title: ライブラリを使う
   using-a-library1: >-
     p5.jsライブラリは、p5.jsのコア機能を拡張したり、追加したりするJavaScriptコードになります。
