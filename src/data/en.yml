@@ -1376,31 +1376,27 @@ community:
     私たちは、これらのハッシュタグが好きです。#noCodeSnobs（なぜなら、効率よりもコミュニティを重視するから）、
     #newKidLove（私たちは誰もがどこかから始めたから）、#unassumeCore（私たちは知識を前提としないから）、
     そして#BlackLivesMatter（もちろん）。
-  in-practice-title: 'In practice:'
-  in-practice1: ' We are not code snobs. We do not assume knowledge or imply there are things that somebody should know. '
+  in-practice-title: 'p5コミュニティが共有する価値観'
+  in-practice1: '私たちは、コードの知識をひけらかしたりしません。 私たちは、その知識があると決めつけることや、知っておくべき事だとほのめかしたりしません。 '
   in-practice2: >-
-    We insist on actively engaging with requests for feedback regardless of
-    their complexity.
+    私たちは、複雑なフィードバックの要求でも積極的に取り組んでいきます。
   in-practice3: >-
-    We welcome newcomers and prioritize the education of others. We strive to
-    approach all tasks with the enthusiasm of a newcomer. Because we believe
-    that newcomers are just as valuable in this effort as experts.
+    私たちは、新たに始める人を大歓迎し、そして優先して教えます。私たちは、全てのタスクを新人のような熱意をもって取り組んでいきます。
+    なぜなら、新人の取り組みもエキスパートと同じくらいの価値があると信じているからです。
   in-practice4: >-
-    We consistently make the effort to actively recognize and validate multiple
-    types of contributions.
-  in-practice5: We are always willing to offer help or guidance.
-  in-times-conflict-title: 'In times of conflict:'
-  in-times-conflict1: We listen.
-  in-times-conflict2: We clearly communicate while acknowledging other's feelings.
+    私たちは、一貫して様々なタイプの貢献を積極的に認め、検証する努力をします。
+  in-practice5: 私たちはいつでも喜んで手助けしますし、指導します。
+  in-times-conflict-title: '問題が起きたとき'
+  in-times-conflict1: 私たちは話を聞きます.
+  in-times-conflict2: 私たちは、あなたの気持ちを受け入れながら、コミュニケーションを取ります。
   in-times-conflict3: >-
-    We admit when we're wrong, apologize, and accept responsibility for our
-    actions.
-  in-times-conflict4: We are continuously seeking to improve ourselves and our community.
-  in-times-conflict5: We keep our community respectful and open.
-  in-times-conflict6: We make everyone feel heard.
-  in-times-conflict7: We are mindful and kind in our interactions.
-  in-the-future-title: 'In the future:'
-  in-the-future1: The future is now.
+    私たちは、間違った時は認めて謝罪をし、私たちの行動に対して責任を持ちます。
+  in-times-conflict4: 私たちは、私たち自身と、このコミュニティがさらに良くなるようにずっと追い求めていきます。
+  in-times-conflict5: 私たちは丁寧で、オープンなコミュニティであることを保ちます。
+  in-times-conflict6: 私たちは、みんなが話に耳を傾ける場を作ります。
+  in-times-conflict7: 私たちは、親切で心のこもった交流します。
+  in-the-future-title: 'これからについて'
+  in-the-future1: 未来は今だ！
   notes-title: Notes
   notes1: 'Please also visit our '
   notes2: p5.js Code of Conduct
